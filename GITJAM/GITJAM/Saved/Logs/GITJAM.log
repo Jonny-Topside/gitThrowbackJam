@@ -331,3 +331,122 @@ LogInit: Object subsystem initialized
 [2018.02.28-01.21.52:022][  0]LightingResults: New page: Lighting Build
 [2018.02.28-01.21.52:542][  0]MapCheck: New page: Map Check
 [2018.02.28-01.21.52:542][  0]LightingResults: New page: Lighting Build
+[2018.02.28-01.22.07:057][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-01.22.07:057][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-01.22.07:075][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.28-01.22.07:321][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-01.22.07:321][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-01.22.07:321][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-01.22.07:544][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-01.22.07:544][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-01.22.07:544][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-01.22.07:544][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-01.22.12:296][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-01.22.13:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-01.22.13:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-01.22.13:894][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.9ms to complete.
+[2018.02.28-01.22.13:894][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 21.987
+[2018.02.28-01.22.19:599][  0]LogCollectionManager: Loaded 0 collections in 0.020600 seconds
+[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Saved/Collections/' took 0.01s
+[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Developers/Jcrib/Collections/' took 0.01s
+[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Collections/' took 0.01s
+[2018.02.28-01.22.23:107][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.28-01.22.23:574][  0]LogContentBrowser: Native class hierarchy populated in 0.2607 seconds. Added 2363 classes and 519 folders.
+[2018.02.28-01.22.24:160][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.02.28-01.22.30:937][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.02.28-01.22.32:064][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.28-01.22.45:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.28-01.22.45:158][  0]LogLoad: (Engine Initialization) Total time: 298.82 seconds
+[2018.02.28-01.22.45:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.28-01.22.45:437][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.28-01.22.45:437][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.28-01.22.50:720][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.28-01.22.52:278][  0]LogSlate: Took 0.155114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.28-01.22.52:433][  0]LogSlate: Took 0.030358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.28-01.22.53:037][  0]LogSlate: Took 0.090965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.28-01.22.57:487][  1]LogRenderer: Reallocating scene render targets to support 840x400 Format 10 NumSamples 1 (Frame:1).
+[2018.02.28-01.23.00:511][  3]LogAssetRegistry: Asset discovery search completed in 185.3083 seconds
+[2018.02.28-01.23.00:609][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.28-01.23.00:635][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.031631 seconds (updated 0 objects)
+[2018.02.28-01.23.01:412][  5]LogSlate: Took 0.048146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.28-01.25.40:155][660]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:190).
+[2018.02.28-01.26.28:069][ 74]LogSlate: Took 0.035521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.28-01.26.29:090][ 74]LogAIModule: Creating AISystem for world main
+[2018.02.28-01.26.29:223][ 74]Cmd: MAP LOAD FILE="../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-01.26.29:223][ 74]LightingResults: New page: Lighting Build
+[2018.02.28-01.26.29:230][ 74]LoadErrors: New page: Loading map: main.umap
+[2018.02.28-01.26.29:246][ 74]MapCheck: New page: Map Check
+[2018.02.28-01.26.29:246][ 74]LightingResults: New page: Lighting Build
+[2018.02.28-01.26.29:470][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-01.26.29:554][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-01.26.29:617][ 74]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.536ms to complete.
+[2018.02.28-01.26.29:729][ 74]LogFileHelpers: Loading map 'main' took 0.568
+[2018.02.28-01.26.29:774][ 74]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.28-01.26.31:911][183]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-01.26.32:079][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-01.26.32:127][183]PIE: New page: PIE session: main (Feb 27, 2018, 3:26:32 PM)
+[2018.02.28-01.26.32:310][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-01.26.32:341][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031133s)
+[2018.02.28-01.26.32:341][183]LogAIModule: Creating AISystem for world main
+[2018.02.28-01.26.32:352][183]LogPlayLevel: PIE: World Init took: (0.011193s)
+[2018.02.28-01.26.32:361][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.052010s)
+[2018.02.28-01.26.32:402][183]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-01.26.32:417][183]LogInit: FAudioDevice initialized.
+[2018.02.28-01.26.32:564][183]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-01.26.32:768][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 60) at 2018.02.27-20.26.32
+[2018.02.28-01.26.32:900][183]LogWorld: Bringing up level for play took: 0.148294
+[2018.02.28-01.26.33:189][183]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0140 seconds. Added 11 classes and 0 folders.
+[2018.02.28-01.26.33:295][183]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 1.241
+[2018.02.28-01.27.04:282][879]LogBlueprint: Error: [Compiler jonTestBlueprint] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2018.02.28-01.27.04:282][879]LogBlueprint: Warning: [Compiler jonTestBlueprint] [0557.94] Compile of jonTestBlueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 51 ms] (/Game/BLUEPRINTS/jonTestBlueprint.jonTestBlueprint)
+[2018.02.28-01.27.05:887][879]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.02.28-01.27.08:569][879]LogSlate: Took 0.015274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.28-01.27.12:023][880]LogSlate: Took 0.064459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.28-01.27.58:843][ 30]BlueprintLog: New page: Compile jonTestBlueprint
+[2018.02.28-01.27.58:884][ 30]LogBlueprint: Error: [Compiler jonTestBlueprint] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2018.02.28-01.27.58:965][ 30]LogBlueprint: Warning: [Compiler jonTestBlueprint] [0612.63] Compile of jonTestBlueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 121 ms] (/Game/BLUEPRINTS/jonTestBlueprint.jonTestBlueprint)
+[2018.02.28-01.29.10:876][319]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:289 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2018.02.28-01.29.10:876][319]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.02.28-01.29.24:729][319]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.02.28-01.29.24:738][319]LogWindows: Error: === Critical error: ===
+[2018.02.28-01.29.24:738][319]LogWindows: Error: 
+[2018.02.28-01.29.24:738][319]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 813] 
+[2018.02.28-01.29.24:738][319]LogWindows: Error: Rendering thread exception:
+[2018.02.28-01.29.24:738][319]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
+[2018.02.28-01.29.24:738][319]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0020 - 'INTERNAL_ERROR')
+[2018.02.28-01.29.24:738][319]LogWindows: Error: 
+[2018.02.28-01.29.24:738][319]LogWindows: Error: 
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000002B1E4008 KERNELBASE.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000FD2F76D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFC2330B UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFBB47F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000162679FF UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001626BBC0 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001624B3FA UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001624B35E UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000162583E8 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000FD37E4F7 UE4Editor-RHI.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x0000000014850B45 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000148560A9 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFA84845 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFA84E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000FFFD22C4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000FFFD32F6 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFE2092C UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFE12563 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002CA31FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002EE3EFC1 ntdll.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002EE3EFC1 ntdll.dll!UnknownFunction []
+[2018.02.28-01.29.24:739][319]LogWindows: Error: 
+[2018.02.28-01.29.24:739][319]LogWindows: Error: 
+[2018.02.28-01.29.24:739][319]LogWindows: Error: 
+[2018.02.28-01.29.24:739][319]LogWindows: Error: 
+[2018.02.28-01.29.24:757][319]LogExit: Executing StaticShutdownAfterError
+[2018.02.28-01.29.24:899][319]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.02.28-01.29.24:911][319]Log file closed, 02/27/18 20:29:24
