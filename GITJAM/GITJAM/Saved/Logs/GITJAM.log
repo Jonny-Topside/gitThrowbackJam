@@ -1,18 +1,20 @@
-﻿Log file open, 02/27/18 20:18:24
+﻿Log file open, 02/27/18 22:25:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GITJAM
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(279014701) SRandInit(279014701).
+LogInit: Display: RandInit(-1851016882) SRandInit(-1851016882).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 5.021032
+LogStats: Stats thread started at 0.158207
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -190,263 +192,1334 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: D:/UNREAL/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.28-01.18.31:676][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.28-01.18.31:676][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.28-01.18.31:837][  0]LogInit: Computer: RIDENTEM-WORK-L
-[2018.02.28-01.18.31:837][  0]LogInit: User: Jcrib
-[2018.02.28-01.18.31:837][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.28-01.18.31:837][  0]LogInit: High frequency timer resolution =2.435782 MHz
-[2018.02.28-01.18.31:856][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.02.28-01.18.31:856][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.28-01.18.31:856][  0]LogMemory: Process Physical Memory: 272.16 MB used, 272.16 MB peak
-[2018.02.28-01.18.31:856][  0]LogMemory: Process Virtual Memory: 269.73 MB used, 269.73 MB peak
-[2018.02.28-01.18.31:856][  0]LogMemory: Physical Memory: 6599.76 MB used,  9665.35 MB free, 16265.11 MB total
-[2018.02.28-01.18.31:856][  0]LogMemory: Virtual Memory: 682.53 MB used,  9665.35 MB free, 134217728.00 MB total
-[2018.02.28-01.18.33:548][  0]LogInit: Using OS detected language (en-US).
-[2018.02.28-01.18.33:548][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.28-01.18.33:891][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.28-01.18.34:878][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.28-01.18.40:342][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.28-01.18.40:475][  0]LogD3D11RHI:    0. 'AMD Radeon R9 M280X' (Feature Level 11_0)
-[2018.02.28-01.18.40:475][  0]LogD3D11RHI:       2024/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.02.28-01.18.40:494][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.02.28-01.18.40:494][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.28-01.18.40:496][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.28-01.18.40:496][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.28-01.18.40:496][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.28-01.18.40:529][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.28-01.18.40:530][  0]LogD3D11RHI:     GPU DeviceId: 0x6646 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.28-01.18.40:530][  0]LogWindows: EnumDisplayDevices:
-[2018.02.28-01.18.40:530][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.02.28-01.18.40:539][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    3. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    4. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    5. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    6. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:539][  0]LogWindows:    7. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    8. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    9. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    10. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    11. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    12. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    13. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    14. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    15. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:540][  0]LogWindows:    16. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:541][  0]LogWindows:    17. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:541][  0]LogWindows:    18. 'AMD Radeon R9 M280X' (P:0 D:0)
-[2018.02.28-01.18.40:541][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.28-01.18.40:541][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 M280X
-[2018.02.28-01.18.40:541][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.28-01.18.40:541][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.28-01.18.40:541][  0]LogRHI: Texture pool is 1417 MB (70% of 2024 MB)
-[2018.02.28-01.18.40:816][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.28-01.18.41:712][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.02.28-01.18.41:946][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Intermediate/Shaders/WorkingDirectory/19352/).
-[2018.02.28-01.18.41:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jcrib/AppData/Local/Temp/UnrealShaderWorkingDir/DAE8A2ED44579D11B7E725B53B411A4E/'.
-[2018.02.28-01.18.41:957][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.28-01.18.49:812][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.28-01.18.49:869][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.28-01.18.49:926][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.28-01.18.49:983][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.28-01.18.50:073][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.28-01.18.50:130][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.28-01.18.50:188][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.28-01.18.50:249][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.28-01.18.50:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.28-01.18.50:369][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.28-01.18.50:423][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.28-01.18.50:478][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.28-01.18.50:533][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.28-01.18.50:589][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.28-01.18.50:700][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.28-01.18.50:700][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.28-01.18.50:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.28-01.18.50:824][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.28-01.18.51:239][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.28-01.18.51:269][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.28-01.18.51:323][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.28-01.18.51:377][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.28-01.18.51:430][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.28-01.18.51:490][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.28-01.18.51:491][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.28-01.18.54:170][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: Loaded boot cache 0.98s 78MB C:/Users/Jcrib/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jcrib/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.28-01.18.55:167][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.28-01.18.55:265][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.28-01.18.55:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jcrib/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.28-01.18.55:413][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.28-01.18.55:521][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.28-01.18.55:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.28-01.18.55:630][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.28-01.19.20:509][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.28-01.19.40:512][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.28-01.19.41:156][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.28-01.19.41:184][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.28-01.19.41:184][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.28-01.19.41:184][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.28-01.19.41:184][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.28-01.19.47:580][  0]LogNetVersion: GITJAM , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 887583033)
-[2018.02.28-01.19.55:226][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
-[2018.02.28-01.20.33:592][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.220736 seconds
-[2018.02.28-01.20.33:631][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.28-01.20.33:631][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.28-01.20.33:631][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.28-01.20.33:807][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.28-01.21.07:325][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.28-01.21.07:704][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.28-01.21.12:321][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.28-01.21.14:299][  0]SourceControl: Source control is disabled
-[2018.02.28-01.21.17:048][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.28-01.21.17:514][  0]LogOcInput: OculusInput pre-init called
-[2018.02.28-01.21.18:849][  0]LogEngine: Initializing Engine...
-[2018.02.28-01.21.19:006][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.28-01.21.20:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.28-01.21.20:292][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.28-01.21.21:121][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.28-01.21.21:418][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.28-01.21.21:682][  0]LogInit: FAudioDevice initialized.
-[2018.02.28-01.21.22:227][  0]LogDerivedDataCache: Saved boot cache 0.48s 78MB C:/Users/Jcrib/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.28-01.21.22:284][  0]LogInit: Texture streaming: Enabled
-[2018.02.28-01.21.22:514][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.28-01.21.22:514][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={AC163FB3-4693-2224-A7AF-188F0CD1574C}
-[2018.02.28-01.21.24:241][  0]LogInit: Transaction tracking system initialized
-[2018.02.28-01.21.27:791][  0]BlueprintLog: New page: Editor Load
-[2018.02.28-01.21.33:365][  0]LocalizationService: Localization service is disabled
-[2018.02.28-01.21.36:397][  0]LogConsoleResponse: Display: 
-[2018.02.28-01.21.44:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/' took 0.08s
-[2018.02.28-01.21.44:795][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.28-01.21.44:795][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.28-01.21.44:917][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.28-01.21.51:931][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.28-01.21.52:022][  0]LightingResults: New page: Lighting Build
-[2018.02.28-01.21.52:542][  0]MapCheck: New page: Map Check
-[2018.02.28-01.21.52:542][  0]LightingResults: New page: Lighting Build
-[2018.02.28-01.22.07:057][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2018.02.28-01.22.07:057][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
-[2018.02.28-01.22.07:075][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
-[2018.02.28-01.22.07:321][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2018.02.28-01.22.07:321][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
-[2018.02.28-01.22.07:321][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
-[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2018.02.28-01.22.07:414][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2018.02.28-01.22.07:544][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2018.02.28-01.22.07:544][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2018.02.28-01.22.07:544][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2018.02.28-01.22.07:544][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2018.02.28-01.22.12:296][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.02.28-01.22.13:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.28-01.22.13:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.28-01.22.13:894][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.9ms to complete.
-[2018.02.28-01.22.13:894][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 21.987
-[2018.02.28-01.22.19:599][  0]LogCollectionManager: Loaded 0 collections in 0.020600 seconds
-[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Saved/Collections/' took 0.01s
-[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Developers/Jcrib/Collections/' took 0.01s
-[2018.02.28-01.22.23:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Collections/' took 0.01s
-[2018.02.28-01.22.23:107][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.28-01.22.23:574][  0]LogContentBrowser: Native class hierarchy populated in 0.2607 seconds. Added 2363 classes and 519 folders.
-[2018.02.28-01.22.24:160][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.02.28-01.22.30:937][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.28-01.22.32:064][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.28-01.22.45:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.28-01.22.45:158][  0]LogLoad: (Engine Initialization) Total time: 298.82 seconds
-[2018.02.28-01.22.45:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.28-01.22.45:437][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.28-01.22.45:437][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.28-01.22.50:720][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.28-01.22.52:278][  0]LogSlate: Took 0.155114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.28-01.22.52:433][  0]LogSlate: Took 0.030358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.28-01.22.53:037][  0]LogSlate: Took 0.090965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.28-01.22.57:487][  1]LogRenderer: Reallocating scene render targets to support 840x400 Format 10 NumSamples 1 (Frame:1).
-[2018.02.28-01.23.00:511][  3]LogAssetRegistry: Asset discovery search completed in 185.3083 seconds
-[2018.02.28-01.23.00:609][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.28-01.23.00:635][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.031631 seconds (updated 0 objects)
-[2018.02.28-01.23.01:412][  5]LogSlate: Took 0.048146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.28-01.25.40:155][660]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:190).
-[2018.02.28-01.26.28:069][ 74]LogSlate: Took 0.035521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.28-01.26.29:090][ 74]LogAIModule: Creating AISystem for world main
-[2018.02.28-01.26.29:223][ 74]Cmd: MAP LOAD FILE="../../../../../../Users/Jcrib/Downloads/throwbackJam/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.28-01.26.29:223][ 74]LightingResults: New page: Lighting Build
-[2018.02.28-01.26.29:230][ 74]LoadErrors: New page: Loading map: main.umap
-[2018.02.28-01.26.29:246][ 74]MapCheck: New page: Map Check
-[2018.02.28-01.26.29:246][ 74]LightingResults: New page: Lighting Build
-[2018.02.28-01.26.29:470][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.28-01.26.29:554][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.28-01.26.29:617][ 74]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.536ms to complete.
-[2018.02.28-01.26.29:729][ 74]LogFileHelpers: Loading map 'main' took 0.568
-[2018.02.28-01.26.29:774][ 74]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.28-01.26.31:911][183]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.28-01.26.32:079][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.28-01.26.32:127][183]PIE: New page: PIE session: main (Feb 27, 2018, 3:26:32 PM)
-[2018.02.28-01.26.32:310][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
-[2018.02.28-01.26.32:341][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031133s)
-[2018.02.28-01.26.32:341][183]LogAIModule: Creating AISystem for world main
-[2018.02.28-01.26.32:352][183]LogPlayLevel: PIE: World Init took: (0.011193s)
-[2018.02.28-01.26.32:361][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.052010s)
-[2018.02.28-01.26.32:402][183]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.28-01.26.32:417][183]LogInit: FAudioDevice initialized.
-[2018.02.28-01.26.32:564][183]LogLoad: Game class is 'GM_Tutorial_C'
-[2018.02.28-01.26.32:768][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 60) at 2018.02.27-20.26.32
-[2018.02.28-01.26.32:900][183]LogWorld: Bringing up level for play took: 0.148294
-[2018.02.28-01.26.33:189][183]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0140 seconds. Added 11 classes and 0 folders.
-[2018.02.28-01.26.33:295][183]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 1.241
-[2018.02.28-01.27.04:282][879]LogBlueprint: Error: [Compiler jonTestBlueprint] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
-[2018.02.28-01.27.04:282][879]LogBlueprint: Warning: [Compiler jonTestBlueprint] [0557.94] Compile of jonTestBlueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 51 ms] (/Game/BLUEPRINTS/jonTestBlueprint.jonTestBlueprint)
-[2018.02.28-01.27.05:887][879]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
-[2018.02.28-01.27.08:569][879]LogSlate: Took 0.015274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.28-01.27.12:023][880]LogSlate: Took 0.064459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.28-01.27.58:843][ 30]BlueprintLog: New page: Compile jonTestBlueprint
-[2018.02.28-01.27.58:884][ 30]LogBlueprint: Error: [Compiler jonTestBlueprint] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
-[2018.02.28-01.27.58:965][ 30]LogBlueprint: Warning: [Compiler jonTestBlueprint] [0612.63] Compile of jonTestBlueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 121 ms] (/Game/BLUEPRINTS/jonTestBlueprint.jonTestBlueprint)
-[2018.02.28-01.29.10:876][319]LogD3D11RHI: Error: Result failed 
- at D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:289 
- with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
-[2018.02.28-01.29.10:876][319]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2018.02.28-01.29.24:729][319]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2018.02.28-01.29.24:738][319]LogWindows: Error: === Critical error: ===
-[2018.02.28-01.29.24:738][319]LogWindows: Error: 
-[2018.02.28-01.29.24:738][319]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 813] 
-[2018.02.28-01.29.24:738][319]LogWindows: Error: Rendering thread exception:
-[2018.02.28-01.29.24:738][319]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
-[2018.02.28-01.29.24:738][319]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0020 - 'INTERNAL_ERROR')
-[2018.02.28-01.29.24:738][319]LogWindows: Error: 
-[2018.02.28-01.29.24:738][319]LogWindows: Error: 
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000002B1E4008 KERNELBASE.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000FD2F76D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFC2330B UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFBB47F9 UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000162679FF UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001626BBC0 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001624B3FA UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x000000001624B35E UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000162583E8 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000FD37E4F7 UE4Editor-RHI.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x0000000014850B45 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000148560A9 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2018.02.28-01.29.24:738][319]LogWindows: Error: [Callstack] 0x00000000CFA84845 UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFA84E2A UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000FFFD22C4 UE4Editor-RenderCore.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000FFFD32F6 UE4Editor-RenderCore.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFE2092C UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x00000000CFE12563 UE4Editor-Core.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002CA31FE4 KERNEL32.DLL!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002EE3EFC1 ntdll.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: [Callstack] 0x000000002EE3EFC1 ntdll.dll!UnknownFunction []
-[2018.02.28-01.29.24:739][319]LogWindows: Error: 
-[2018.02.28-01.29.24:739][319]LogWindows: Error: 
-[2018.02.28-01.29.24:739][319]LogWindows: Error: 
-[2018.02.28-01.29.24:739][319]LogWindows: Error: 
-[2018.02.28-01.29.24:757][319]LogExit: Executing StaticShutdownAfterError
-[2018.02.28-01.29.24:899][319]LogWindows: FPlatformMisc::RequestExit(1)
-[2018.02.28-01.29.24:911][319]Log file closed, 02/27/18 20:29:24
+[2018.02.28-03.25.08:601][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.28-03.25.08:601][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.28-03.25.08:612][  0]LogInit: Computer: BIG-BOI
+[2018.02.28-03.25.08:612][  0]LogInit: User: CORVO
+[2018.02.28-03.25.08:612][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.28-03.25.08:612][  0]LogInit: High frequency timer resolution =3.328123 MHz
+[2018.02.28-03.25.08:612][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.28-03.25.08:612][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.28-03.25.08:612][  0]LogMemory: Process Physical Memory: 271.74 MB used, 271.74 MB peak
+[2018.02.28-03.25.08:612][  0]LogMemory: Process Virtual Memory: 269.68 MB used, 269.68 MB peak
+[2018.02.28-03.25.08:612][  0]LogMemory: Physical Memory: 6752.46 MB used,  9551.69 MB free, 16304.15 MB total
+[2018.02.28-03.25.08:612][  0]LogMemory: Virtual Memory: 682.18 MB used,  9551.69 MB free, 134217728.00 MB total
+[2018.02.28-03.25.08:707][  0]LogInit: Using OS detected language (en-US).
+[2018.02.28-03.25.08:707][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.28-03.25.08:709][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.28-03.25.09:079][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.28-03.25.09:282][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.28-03.25.09:335][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2018.02.28-03.25.09:335][  0]LogD3D11RHI:       2997/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.28-03.25.09:337][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.28-03.25.09:337][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.28-03.25.09:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.28-03.25.09:342][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.28-03.25.09:342][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.28-03.25.09:342][  0]LogWindows: EnumDisplayDevices:
+[2018.02.28-03.25.09:342][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2018.02.28-03.25.09:342][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.02.28-03.25.09:343][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.02.28-03.25.09:343][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.02.28-03.25.09:343][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.28-03.25.09:343][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2018.02.28-03.25.09:343][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.28-03.25.09:343][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.28-03.25.09:343][  0]LogRHI: Texture pool is 2097 MB (70% of 2997 MB)
+[2018.02.28-03.25.09:368][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.28-03.25.09:379][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.28-03.25.09:381][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Intermediate/Shaders/WorkingDirectory/11580/).
+[2018.02.28-03.25.09:381][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CORVO/AppData/Local/Temp/UnrealShaderWorkingDir/47529A084A38D56462064B8C3730FFF2/'.
+[2018.02.28-03.25.09:381][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.28-03.25.10:268][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.28-03.25.10:305][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.28-03.25.10:342][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.28-03.25.10:377][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.28-03.25.10:412][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.28-03.25.10:449][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.28-03.25.10:483][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.28-03.25.10:518][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.28-03.25.10:551][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.28-03.25.10:585][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.28-03.25.10:622][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.28-03.25.10:656][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.28-03.25.10:689][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.28-03.25.10:726][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.28-03.25.10:801][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.28-03.25.10:801][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.28-03.25.10:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.28-03.25.10:866][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.28-03.25.10:942][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.28-03.25.10:962][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.28-03.25.10:996][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.28-03.25.11:029][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.28-03.25.11:065][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.28-03.25.11:105][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.28-03.25.11:105][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.28-03.25.11:403][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: Loaded boot cache 0.06s 69MB C:/Users/CORVO/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CORVO/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.28-03.25.11:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.28-03.25.11:476][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.28-03.25.11:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CORVO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.28-03.25.11:497][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.28-03.25.11:497][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.28-03.25.11:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.28-03.25.11:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.28-03.25.11:812][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.28-03.25.12:046][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.28-03.25.12:071][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.28-03.25.12:071][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.28-03.25.12:071][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.28-03.25.12:071][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.28-03.25.12:071][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.28-03.25.12:093][  0]LogNetVersion: GITJAM , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 887583033)
+[2018.02.28-03.25.12:238][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.02.28-03.25.12:710][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.059055 seconds
+[2018.02.28-03.25.12:715][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.28-03.25.12:715][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.28-03.25.12:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.28-03.25.12:753][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.28-03.25.14:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.28-03.25.14:960][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.28-03.25.15:432][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.28-03.25.15:735][  0]SourceControl: Source control is disabled
+[2018.02.28-03.25.16:825][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.28-03.25.17:000][  0]LogOcInput: OculusInput pre-init called
+[2018.02.28-03.25.17:201][  0]LogEngine: Initializing Engine...
+[2018.02.28-03.25.17:204][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.02.28-03.25.17:400][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.28-03.25.17:400][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.28-03.25.17:492][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.28-03.25.17:497][  0]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.25.17:508][  0]LogInit: FAudioDevice initialized.
+[2018.02.28-03.25.17:586][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/CORVO/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.28-03.25.17:605][  0]LogInit: Texture streaming: Enabled
+[2018.02.28-03.25.17:666][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.28-03.25.17:758][  0]LogInit: Transaction tracking system initialized
+[2018.02.28-03.25.17:964][  0]BlueprintLog: New page: Editor Load
+[2018.02.28-03.25.18:521][  0]LocalizationService: Localization service is disabled
+[2018.02.28-03.25.18:985][  0]LogConsoleResponse: Display: 
+[2018.02.28-03.25.19:131][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.28-03.25.19:131][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.28-03.25.19:132][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.28-03.25.19:914][  0]LogFileCache: Scanning file cache for directory 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/' took 0.01s
+[2018.02.28-03.25.19:914][  0]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-03.25.19:914][  0]LightingResults: New page: Lighting Build
+[2018.02.28-03.25.19:939][  0]MapCheck: New page: Map Check
+[2018.02.28-03.25.19:939][  0]LightingResults: New page: Lighting Build
+[2018.02.28-03.25.20:178][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.25.20:178][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-03.25.20:178][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.28-03.25.20:185][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.25.20:185][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-03.25.20:185][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.28-03.25.20:188][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.25.20:188][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.25.20:189][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.25.20:189][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.25.20:218][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.25.20:218][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-03.25.20:218][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.25.20:218][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-03.25.20:361][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-03.25.20:374][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-03.25.20:397][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-03.25.20:434][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.608ms to complete.
+[2018.02.28-03.25.20:434][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.520
+[2018.02.28-03.25.20:496][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.28-03.25.20:576][  0]LogCollectionManager: Loaded 0 collections in 0.001351 seconds
+[2018.02.28-03.25.20:647][  0]LogFileCache: Scanning file cache for directory 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Collections/' took 0.01s
+[2018.02.28-03.25.20:647][  0]LogFileCache: Scanning file cache for directory 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Developers/CORVO/Collections/' took 0.01s
+[2018.02.28-03.25.20:647][  0]LogFileCache: Scanning file cache for directory 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Collections/' took 0.01s
+[2018.02.28-03.25.20:647][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.28-03.25.20:658][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2363 classes and 519 folders.
+[2018.02.28-03.25.20:702][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.28-03.25.20:728][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.28-03.25.20:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.28-03.25.20:772][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.28-03.25.20:774][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.28-03.25.20:779][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.28-03.25.20:878][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.28-03.25.21:054][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.28-03.25.21:055][  0]LogLoad: (Engine Initialization) Total time: 14.10 seconds
+[2018.02.28-03.25.21:055][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.28-03.25.21:055][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.28-03.25.21:083][  0]SourceControl: On branch master
+[2018.02.28-03.25.21:083][  0]SourceControl: Your branch is ahead of 'origin/master' by 2 commits.
+[2018.02.28-03.25.21:083][  0]SourceControl:   (use "git push" to publish your local commits)
+[2018.02.28-03.25.21:083][  0]SourceControl: Changes not staged for commit:
+[2018.02.28-03.25.21:083][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.02.28-03.25.21:083][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.28-03.25.21:083][  0]SourceControl: 	modified:   GITJAM/GITJAM/Intermediate/CachedAssetRegistry.bin
+[2018.02.28-03.25.21:083][  0]SourceControl: 	modified:   GITJAM/GITJAM/Saved/Logs/GITJAM.log
+[2018.02.28-03.25.21:083][  0]SourceControl: Untracked files:
+[2018.02.28-03.25.21:083][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.02.28-03.25.21:083][  0]SourceControl: 	GITJAM/GITJAM/Saved/Config/CrashReportClient/UE4CC-Windows-71E339E742CB9DFE8DA4DD9B8C137D46/
+[2018.02.28-03.25.21:083][  0]SourceControl: 	GITJAM/GITJAM/Saved/Logs/GITJAM-backup-2018.02.27-22.25.07.log
+[2018.02.28-03.25.21:083][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.02.28-03.25.21:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.28-03.25.21:146][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.28-03.25.21:166][  1]LogAssetRegistry: Asset discovery search completed in 8.9493 seconds
+[2018.02.28-03.25.21:168][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.28-03.25.21:168][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.02.28-03.25.29:654][998]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.28-03.25.29:749][998]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.25.29:764][998]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-03.25.29:764][998]LightingResults: New page: Lighting Build
+[2018.02.28-03.25.29:764][998]LoadErrors: New page: Loading map: main.umap
+[2018.02.28-03.25.29:781][998]MapCheck: New page: Map Check
+[2018.02.28-03.25.29:781][998]LightingResults: New page: Lighting Build
+[2018.02.28-03.25.29:793][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-03.25.29:823][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-03.25.29:859][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.041ms to complete.
+[2018.02.28-03.25.29:859][998]LogFileHelpers: Loading map 'main' took 0.097
+[2018.02.28-03.25.31:763][223]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.25.31:837][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.25.31:838][223]PIE: New page: PIE session: main (Feb 27, 2018, 5:25:31 PM)
+[2018.02.28-03.25.31:838][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.25.31:839][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001082s)
+[2018.02.28-03.25.31:839][223]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.25.31:839][223]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.02.28-03.25.31:840][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001854s)
+[2018.02.28-03.25.31:850][223]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.25.31:858][223]LogInit: FAudioDevice initialized.
+[2018.02.28-03.25.31:898][223]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.25.31:900][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.25.31
+[2018.02.28-03.25.31:901][223]LogWorld: Bringing up level for play took: 0.001059
+[2018.02.28-03.25.31:928][223]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.28-03.25.31:944][223]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.793
+[2018.02.28-03.25.43:772][627]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.25.43:787][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.25.43:787][627]PIE: New page: PIE session: main (Feb 27, 2018, 5:25:43 PM)
+[2018.02.28-03.25.43:787][627]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.25.43:789][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001060s)
+[2018.02.28-03.25.43:789][627]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.25.43:789][627]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2018.02.28-03.25.43:789][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001803s)
+[2018.02.28-03.25.43:798][627]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.25.43:805][627]LogInit: FAudioDevice initialized.
+[2018.02.28-03.25.43:833][627]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.25.43:835][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.25.43
+[2018.02.28-03.25.43:835][627]LogWorld: Bringing up level for play took: 0.000831
+[2018.02.28-03.25.43:836][627]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.685
+[2018.02.28-03.26.02:561][778]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.02.28-03.26.15:243][965]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.26.15:264][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.26.15:264][965]PIE: New page: PIE session: main (Feb 27, 2018, 5:26:15 PM)
+[2018.02.28-03.26.15:264][965]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.26.15:266][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001557s)
+[2018.02.28-03.26.15:266][965]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.26.15:266][965]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2018.02.28-03.26.15:267][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.002314s)
+[2018.02.28-03.26.15:328][965]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.26.15:335][965]LogInit: FAudioDevice initialized.
+[2018.02.28-03.26.15:369][965]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.26.15:378][965]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.26.15
+[2018.02.28-03.26.15:427][965]LogWorld: Bringing up level for play took: 0.057294
+[2018.02.28-03.26.15:429][965]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=100.000] for [BP_Player_C]
+[2018.02.28-03.26.15:429][965]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Player_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 100.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.02.28-03.26.15:430][965]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.278
+[2018.02.28-03.26.23:104][864]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.02.28-03.26.27:647][390]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.26.27:663][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.26.27:664][390]PIE: New page: PIE session: main (Feb 27, 2018, 5:26:27 PM)
+[2018.02.28-03.26.27:664][390]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.26.27:665][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001481s)
+[2018.02.28-03.26.27:666][390]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.26.27:666][390]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2018.02.28-03.26.27:666][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.002263s)
+[2018.02.28-03.26.27:681][390]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.26.27:688][390]LogInit: FAudioDevice initialized.
+[2018.02.28-03.26.27:720][390]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.26.27:721][390]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.26.27
+[2018.02.28-03.26.27:722][390]LogWorld: Bringing up level for play took: 0.001437
+[2018.02.28-03.26.27:723][390]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=100.000] for [BP_Player_C]
+[2018.02.28-03.26.27:723][390]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Player_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 100.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.02.28-03.26.27:723][390]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.572
+[2018.02.28-03.26.37:832][587]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.02.28-03.26.42:642][143]Cmd: TRANSACTION UNDO
+[2018.02.28-03.26.42:642][143]LogEditorTransaction: Undo Move Actors
+[2018.02.28-03.26.42:676][143]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.28-03.26.56:294][691]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2018.02.28-03.26.56:391][691]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2018.02.28-03.26.56:619][691]LogSlate: Took 0.011552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.28-03.26.57:025][692]LogSlate: Took 0.011876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.28-03.28.10:651][557]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.28.13:801][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.28.13:908][790]LogSavePackage: Save=91.34ms
+[2018.02.28-03.28.13:908][790]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_PlayerB5765BC84CD95FA3A37C798C2ABD796A.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.28.13:912][790]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.28.22:791][708]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2018.02.28-03.28.22:806][708]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.02.28-03.28.25:106][984]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.28.25:125][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.28.25:126][984]PIE: New page: PIE session: main (Feb 27, 2018, 5:28:25 PM)
+[2018.02.28-03.28.25:126][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.28.25:127][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001085s)
+[2018.02.28-03.28.25:127][984]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.28.25:127][984]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.02.28-03.28.25:127][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001870s)
+[2018.02.28-03.28.25:142][984]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.28.25:149][984]LogInit: FAudioDevice initialized.
+[2018.02.28-03.28.25:181][984]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.28.25:183][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.28.25
+[2018.02.28-03.28.25:183][984]LogWorld: Bringing up level for play took: 0.000709
+[2018.02.28-03.28.25:184][984]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.032
+[2018.02.28-03.33.20:596][300]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.33.20:722][300]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.33.20:722][300]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.33.20:722][300]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.33.20:723][300]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.33.20:723][300]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.33.20:747][302]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.34.55:090][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.34.55:186][309]LogSavePackage: Save=77.06ms
+[2018.02.28-03.34.55:186][309]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_PlayerA19B7EA749F344DDE29D0F8F73312144.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.34.55:186][309]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.34.57:727][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.28-03.34.58:453][641]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.34.58:472][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.34.58:472][641]PIE: New page: PIE session: main (Feb 27, 2018, 5:34:58 PM)
+[2018.02.28-03.34.58:472][641]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.34.58:473][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001123s)
+[2018.02.28-03.34.58:474][641]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.34.58:474][641]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2018.02.28-03.34.58:474][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001956s)
+[2018.02.28-03.34.58:493][641]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.34.58:500][641]LogInit: FAudioDevice initialized.
+[2018.02.28-03.34.58:534][641]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.34.58:536][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.34.58
+[2018.02.28-03.34.58:536][641]LogWorld: Bringing up level for play took: 0.001049
+[2018.02.28-03.34.58:538][641]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.613
+[2018.02.28-03.35.26:271][662]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.35.26:290][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.35.26:290][662]PIE: New page: PIE session: main (Feb 27, 2018, 5:35:26 PM)
+[2018.02.28-03.35.26:291][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.35.26:292][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001040s)
+[2018.02.28-03.35.26:292][662]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.35.26:292][662]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2018.02.28-03.35.26:292][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001783s)
+[2018.02.28-03.35.26:309][662]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.35.26:316][662]LogInit: FAudioDevice initialized.
+[2018.02.28-03.35.26:353][662]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.35.26:355][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.35.26
+[2018.02.28-03.35.26:355][662]LogWorld: Bringing up level for play took: 0.000928
+[2018.02.28-03.35.26:356][662]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.795
+[2018.02.28-03.35.35:813][638]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.35.35:860][639]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.35.35:860][639]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.35.35:860][639]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.35.35:860][639]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.35.35:875][640]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.35.35:890][641]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.38.09:567][649]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.38.10:513][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.38.10:601][687]LogSavePackage: Save=83.93ms
+[2018.02.28-03.38.10:601][687]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player69507F684FF63E40E9B02CBFD9BF969A.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.38.10:603][687]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.39.03:962][734]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.39.03:979][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.39.03:979][734]PIE: New page: PIE session: main (Feb 27, 2018, 5:39:03 PM)
+[2018.02.28-03.39.03:979][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.39.03:980][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000980s)
+[2018.02.28-03.39.03:980][734]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.39.03:980][734]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2018.02.28-03.39.03:981][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001766s)
+[2018.02.28-03.39.03:997][734]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.39.04:004][734]LogInit: FAudioDevice initialized.
+[2018.02.28-03.39.04:038][734]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.39.04:039][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.39.04
+[2018.02.28-03.39.04:040][734]LogWorld: Bringing up level for play took: 0.000712
+[2018.02.28-03.39.04:041][734]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.889
+[2018.02.28-03.39.42:673][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/main" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/Maps/main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.28-03.39.42:708][858]LogSavePackage: Save=26.90ms
+[2018.02.28-03.39.42:708][858]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/main_Auto1CE204D124EF8A73ECDDD01B9269F0779.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/Maps/main_Auto1.umap'
+[2018.02.28-03.39.42:709][858]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/Maps/main_Auto1.umap
+[2018.02.28-03.39.42:711][858]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/main' took 0.077
+[2018.02.28-03.39.42:711][858]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.077
+[2018.02.28-03.41.25:754][385]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.41.25:800][386]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.41.25:800][386]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.41.25:800][386]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.41.25:800][386]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.41.25:818][387]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.41.25:818][387]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.42.02:171][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/main" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.28-03.42.02:209][515]LogSavePackage: Save=22.37ms
+[2018.02.28-03.42.02:209][515]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/main3518929D4D6EB9F6F8AB508A0C6BC101.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap'
+[2018.02.28-03.42.02:211][515]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap
+[2018.02.28-03.42.02:236][515]LogFileHelpers: Saving map 'main' took 0.108
+[2018.02.28-03.42.13:059][775]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.02.28-03.42.13:059][775]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/StarterContent/Maps/StarterMap.umap.
+[2018.02.28-03.42.13:059][775]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Maps/StarterMap_BuiltData
+[2018.02.28-03.42.13:594][775]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.28-03.42.15:018][775]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.02.28-03.42.15:018][775]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/StarterContent/Maps/StarterMap.umap.
+[2018.02.28-03.42.15:322][775]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.02.28-03.42.15:322][775]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
+[2018.02.28-03.42.15:322][775]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.02.28-03.42.15:322][775]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
+[2018.02.28-03.42.15:482][775]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.02.28-03.42.15:482][775]LoadErrors: Failed to load /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-03.42.15:483][775]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
+[2018.02.28-03.42.16:226][775]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2018.02.28-03.42.16:379][775]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.02.28-03.42.16:439][775]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2018.02.28-03.42.16:767][775]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.02.28-03.42.16:991][775]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2018.02.28-03.42.17:064][775]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2018.02.28-03.42.17:180][775]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2018.02.28-03.42.17:265][775]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2018.02.28-03.42.17:309][775]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2018.02.28-03.42.17:351][775]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2018.02.28-03.42.17:388][775]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2018.02.28-03.42.17:429][775]LogMaterial: Missing cached shader map for material M_Tech_Panel, compiling. 
+[2018.02.28-03.42.17:474][775]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2018.02.28-03.42.17:534][775]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2018.02.28-03.42.17:577][775]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2018.02.28-03.42.17:621][775]LogMaterial: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2018.02.28-03.42.18:029][775]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2018.02.28-03.42.18:097][775]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.02.28-03.42.18:141][775]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2018.02.28-03.42.18:187][775]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
+[2018.02.28-03.42.18:230][775]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2018.02.28-03.42.18:269][775]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2018.02.28-03.42.18:322][775]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2018.02.28-03.42.18:365][775]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2018.02.28-03.42.18:472][775]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2018.02.28-03.42.18:772][775]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2018.02.28-03.42.18:813][775]LogMaterial: Missing cached shader map for material M_Tech_Checker_Dot, compiling. 
+[2018.02.28-03.42.18:856][775]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.02.28-03.42.18:900][775]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.02.28-03.42.18:939][775]LogMaterial: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2018.02.28-03.42.18:986][775]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2018.02.28-03.42.19:028][775]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2018.02.28-03.42.19:076][775]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.02.28-03.42.19:118][775]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.02.28-03.42.19:159][775]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.02.28-03.42.19:201][775]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2018.02.28-03.42.19:244][775]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2018.02.28-03.42.19:286][775]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2018.02.28-03.42.19:330][775]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2018.02.28-03.42.19:372][775]LogMaterial: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2018.02.28-03.42.19:416][775]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2018.02.28-03.42.19:457][775]LogMaterial: Missing cached shader map for material M_Concrete_Poured, compiling. 
+[2018.02.28-03.42.19:501][775]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2018.02.28-03.42.19:544][775]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2018.02.28-03.42.19:587][775]LogMaterial: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2018.02.28-03.42.19:627][775]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2018.02.28-03.42.19:668][775]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2018.02.28-03.42.19:712][775]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2018.02.28-03.42.19:772][775]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2018.02.28-03.42.19:817][775]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2018.02.28-03.42.19:860][775]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2018.02.28-03.42.19:921][775]LogAIModule: Creating AISystem for world StarterMap
+[2018.02.28-03.42.20:153][775]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-03.42.20:153][775]LightingResults: New page: Lighting Build
+[2018.02.28-03.42.20:154][775]LoadErrors: New page: Loading map: StarterMap.umap
+[2018.02.28-03.42.20:167][775]MapCheck: New page: Map Check
+[2018.02.28-03.42.20:168][775]LightingResults: New page: Lighting Build
+[2018.02.28-03.42.20:237][775]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-03.42.20:306][775]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-03.42.20:384][775]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.853ms to complete.
+[2018.02.28-03.42.20:386][775]LogFileHelpers: Loading map 'StarterMap' took 0.234
+[2018.02.28-03.42.51:832][306]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.42.51:855][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.42.51:855][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.42.51:924][306]PIE: New page: PIE session: StarterMap (Feb 27, 2018, 5:42:51 PM)
+[2018.02.28-03.42.51:925][306]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2018.02.28-03.42.51:962][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037357s)
+[2018.02.28-03.42.51:963][306]LogAIModule: Creating AISystem for world StarterMap
+[2018.02.28-03.42.51:963][306]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2018.02.28-03.42.51:964][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.038731s)
+[2018.02.28-03.42.51:986][306]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.42.51:996][306]LogInit: FAudioDevice initialized.
+[2018.02.28-03.42.52:042][306]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-03.42.52:051][306]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2018.02.27-22.42.52
+[2018.02.28-03.42.52:052][306]LogWorld: Bringing up level for play took: 0.009002
+[2018.02.28-03.42.52:145][306]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 0.994
+[2018.02.28-03.42.52:146][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.43.07:717][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.43.07:761][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.43.51:563][785]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.43.51:586][785]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.43.51:586][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.43.51:586][785]PIE: New page: PIE session: StarterMap (Feb 27, 2018, 5:43:51 PM)
+[2018.02.28-03.43.51:586][785]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2018.02.28-03.43.51:624][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038513s)
+[2018.02.28-03.43.51:625][785]LogAIModule: Creating AISystem for world StarterMap
+[2018.02.28-03.43.51:626][785]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2018.02.28-03.43.51:626][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.040233s)
+[2018.02.28-03.43.51:648][785]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.43.51:658][785]LogInit: FAudioDevice initialized.
+[2018.02.28-03.43.51:695][785]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-03.43.51:704][785]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2018.02.27-22.43.51
+[2018.02.28-03.43.51:705][785]LogWorld: Bringing up level for play took: 0.009588
+[2018.02.28-03.43.51:709][785]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 0.557
+[2018.02.28-03.43.51:710][785]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.05:054][252]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.05:100][252]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.10:223][677]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.44.10:287][678]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.44.10:287][678]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.44.10:287][678]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.44.10:287][678]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.44.10:287][678]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.44.10:311][680]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.44.23:732][866]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.44.23:754][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.23:755][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.44.23:755][866]PIE: New page: PIE session: StarterMap (Feb 27, 2018, 5:44:23 PM)
+[2018.02.28-03.44.23:755][866]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2018.02.28-03.44.23:792][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037626s)
+[2018.02.28-03.44.23:793][866]LogAIModule: Creating AISystem for world StarterMap
+[2018.02.28-03.44.23:793][866]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.02.28-03.44.23:794][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.038939s)
+[2018.02.28-03.44.23:814][866]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.44.23:824][866]LogInit: FAudioDevice initialized.
+[2018.02.28-03.44.23:863][866]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-03.44.23:871][866]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2018.02.27-22.44.23
+[2018.02.28-03.44.23:872][866]LogWorld: Bringing up level for play took: 0.008983
+[2018.02.28-03.44.23:876][866]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 0.725
+[2018.02.28-03.44.23:877][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.26:617][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.26:660][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.56:737][633]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.44.56:759][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.44.56:759][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.44.56:759][633]PIE: New page: PIE session: StarterMap (Feb 27, 2018, 5:44:56 PM)
+[2018.02.28-03.44.56:759][633]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2018.02.28-03.44.56:793][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033361s)
+[2018.02.28-03.44.56:793][633]LogAIModule: Creating AISystem for world StarterMap
+[2018.02.28-03.44.56:794][633]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2018.02.28-03.44.56:794][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.034798s)
+[2018.02.28-03.44.56:815][633]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.44.56:823][633]LogInit: FAudioDevice initialized.
+[2018.02.28-03.44.56:856][633]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-03.44.56:865][633]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2018.02.27-22.44.56
+[2018.02.28-03.44.56:867][633]LogWorld: Bringing up level for play took: 0.010174
+[2018.02.28-03.44.56:871][633]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap -0.28
+[2018.02.28-03.44.56:871][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.45.07:957][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.45.07:989][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2018.02.28-03.45.35:097][108]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.28-03.47.16:079][784]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
+[2018.02.28-03.47.16:079][784]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
+[2018.02.28-03.47.26:072][611]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.47.26:920][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.47.27:014][645]LogSavePackage: Save=86.30ms
+[2018.02.28-03.47.27:014][645]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_PlayerCF00AD95480E1D978E395B90E57FB467.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.47.27:016][645]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.47.34:123][418]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.47.39:455][418]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-03.47.39:457][418]LightingResults: New page: Lighting Build
+[2018.02.28-03.47.39:457][418]LoadErrors: New page: Loading map: main.umap
+[2018.02.28-03.47.39:459][418]MapCheck: New page: Map Check
+[2018.02.28-03.47.39:459][418]LightingResults: New page: Lighting Build
+[2018.02.28-03.47.39:482][418]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-03.47.39:520][418]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-03.47.39:582][418]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.527ms to complete.
+[2018.02.28-03.47.39:582][418]LogFileHelpers: Loading map 'main' took 0.129
+[2018.02.28-03.47.41:803][682]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.47.41:818][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.47.41:818][682]PIE: New page: PIE session: main (Feb 27, 2018, 5:47:41 PM)
+[2018.02.28-03.47.41:818][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.47.41:819][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2018.02.28-03.47.41:820][682]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.47.41:820][682]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2018.02.28-03.47.41:820][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001778s)
+[2018.02.28-03.47.41:835][682]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.47.41:843][682]LogInit: FAudioDevice initialized.
+[2018.02.28-03.47.41:876][682]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.47.41:878][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.47.41
+[2018.02.28-03.47.41:878][682]LogWorld: Bringing up level for play took: 0.000969
+[2018.02.28-03.47.41:879][682]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.728
+[2018.02.28-03.48.05:326][382]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.48.05:383][384]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.48.05:383][384]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.48.05:383][384]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.48.05:383][384]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.48.05:383][384]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.48.05:393][385]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.48.33:036][401]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.48.33:731][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.48.33:816][431]LogSavePackage: Save=82.01ms
+[2018.02.28-03.48.33:816][431]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player6BE5783E43B4E54FEC8604B6842384F1.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.48.33:818][431]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.48.35:881][644]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.48.35:896][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.48.35:896][644]PIE: New page: PIE session: main (Feb 27, 2018, 5:48:35 PM)
+[2018.02.28-03.48.35:896][644]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.48.35:897][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
+[2018.02.28-03.48.35:897][644]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.48.35:898][644]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.02.28-03.48.35:898][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001879s)
+[2018.02.28-03.48.35:914][644]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.48.35:921][644]LogInit: FAudioDevice initialized.
+[2018.02.28-03.48.35:954][644]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.48.35:955][644]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.48.35
+[2018.02.28-03.48.35:956][644]LogWorld: Bringing up level for play took: 0.000716
+[2018.02.28-03.48.35:957][644]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.805
+[2018.02.28-03.49.09:613][ 41]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.49.10:416][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.49.10:500][ 77]LogSavePackage: Save=80.68ms
+[2018.02.28-03.49.10:500][ 77]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player7B15A85240861592A71D08BCB92DAEEB.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.49.10:502][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.49.12:689][296]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.49.12:704][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.49.12:704][296]PIE: New page: PIE session: main (Feb 27, 2018, 5:49:12 PM)
+[2018.02.28-03.49.12:704][296]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.49.12:705][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001051s)
+[2018.02.28-03.49.12:706][296]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.49.12:706][296]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.02.28-03.49.12:706][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001808s)
+[2018.02.28-03.49.12:723][296]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.49.12:730][296]LogInit: FAudioDevice initialized.
+[2018.02.28-03.49.12:763][296]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.49.12:764][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.49.12
+[2018.02.28-03.49.12:764][296]LogWorld: Bringing up level for play took: 0.001017
+[2018.02.28-03.49.12:766][296]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.386
+[2018.02.28-03.50.43:205][264]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.50.43:937][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.50.44:023][291]LogSavePackage: Save=82.72ms
+[2018.02.28-03.50.44:023][291]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player95310568484C18C6C42450B071497EA3.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.50.44:025][291]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.50.46:564][547]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.50.46:583][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.50.46:583][547]PIE: New page: PIE session: main (Feb 27, 2018, 5:50:46 PM)
+[2018.02.28-03.50.46:583][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-03.50.46:584][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001099s)
+[2018.02.28-03.50.46:584][547]LogAIModule: Creating AISystem for world main
+[2018.02.28-03.50.46:585][547]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2018.02.28-03.50.46:585][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001934s)
+[2018.02.28-03.50.46:602][547]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.50.46:611][547]LogInit: FAudioDevice initialized.
+[2018.02.28-03.50.46:642][547]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-03.50.46:643][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-22.50.46
+[2018.02.28-03.50.46:644][547]LogWorld: Bringing up level for play took: 0.001191
+[2018.02.28-03.50.46:645][547]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.506
+[2018.02.28-03.55.37:865][177]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-03.55.37:914][178]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-03.55.37:914][178]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.55.37:914][178]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-03.55.37:914][178]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-03.55.37:914][178]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-03.55.37:936][179]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-03.56.14:713][579]LogSavePackage: Save=112.80ms
+[2018.02.28-03.56.14:713][579]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/FirstPersonCharacter173D30EE4B7C377620E54384923EFED9.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.02.28-03.56.14:715][579]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.02.28-03.56.15:054][597]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.02.28-03.56.15:092][597]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.02.28-03.56.15:376][597]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [1868.42] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 322 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.02.28-03.56.52:634][243]LogEditorTransaction: Undo RemovePin
+[2018.02.28-03.56.53:903][313]LogEditorTransaction: Undo Add Pin
+[2018.02.28-03.56.54:097][315]LogEditorTransaction: Undo Create Pin Link
+[2018.02.28-03.56.54:281][318]LogEditorTransaction: Undo Create Pin Link
+[2018.02.28-03.56.54:463][322]LogEditorTransaction: Undo Edit Use Controller Rotation Yaw
+[2018.02.28-03.56.54:655][326]LogEditorTransaction: Undo Edit Use Controller Rotation Yaw
+[2018.02.28-03.56.54:845][331]LogEditorTransaction: Undo Create Pin Link
+[2018.02.28-03.56.55:046][335]LogEditorTransaction: Undo Create Pin Link
+[2018.02.28-03.56.55:265][341]LogEditorTransaction: Undo Delete current selection
+[2018.02.28-03.56.55:479][347]LogEditorTransaction: Undo Delete current selection
+[2018.02.28-03.57.00:134][580]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.02.28-03.57.00:175][580]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.02.28-03.57.00:483][580]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [1913.52] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 349 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.02.28-03.58.09:779][801]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.02.28-03.58.28:195][866]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.02.28-03.58.29:215][895]LogSavePackage: Save=105.85ms
+[2018.02.28-03.58.29:215][895]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/FirstPersonCharacter20E527CE48C649B9992052AB0E0F7A61.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.02.28-03.58.29:217][895]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.02.28-03.58.36:205][126]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-03.59.01:118][864]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.59.01:118][864]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-03.59.01:118][864]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.28-03.59.01:120][864]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.59.01:120][864]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.28-03.59.01:122][864]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.59.01:122][864]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.59.01:122][864]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.59.01:122][864]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.59.01:127][864]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.28-03.59.01:127][864]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.28-03.59.01:127][864]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.28-03.59.01:141][864]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-03.59.13:498][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-03.59.13:594][864]LogSavePackage: Save=88.58ms
+[2018.02.28-03.59.13:594][864]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player1CE5F91B4F7004FEB2837798EB97BD34.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-03.59.13:596][864]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-03.59.13:598][864]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-03.59.13:598][864]LightingResults: New page: Lighting Build
+[2018.02.28-03.59.13:599][864]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.02.28-03.59.13:599][864]MapCheck: New page: Map Check
+[2018.02.28-03.59.13:599][864]LightingResults: New page: Lighting Build
+[2018.02.28-03.59.13:621][864]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-03.59.13:661][864]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-03.59.13:725][864]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.966ms to complete.
+[2018.02.28-03.59.13:726][864]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.130
+[2018.02.28-03.59.16:160][152]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-03.59.16:193][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-03.59.16:193][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-03.59.16:193][152]PIE: New page: PIE session: FirstPersonExampleMap (Feb 27, 2018, 5:59:16 PM)
+[2018.02.28-03.59.16:194][152]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.28-03.59.16:221][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027881s)
+[2018.02.28-03.59.16:222][152]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-03.59.16:223][152]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2018.02.28-03.59.16:223][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029480s)
+[2018.02.28-03.59.16:242][152]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-03.59.16:249][152]LogInit: FAudioDevice initialized.
+[2018.02.28-03.59.16:280][152]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-03.59.16:282][152]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.27-22.59.16
+[2018.02.28-03.59.16:283][152]LogWorld: Bringing up level for play took: 0.002431
+[2018.02.28-03.59.16:303][152]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.849
+[2018.02.28-03.59.16:303][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-03.59.29:168][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-03.59.29:203][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.00.23:941][876]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.00.23:961][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.00.23:961][876]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.28-04.00.23:977][876]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2018.02.28-04.00.24:380][876]LogPlayLevel: PlayLevel: Blueprint regeneration took 418 ms (1 blueprints)
+[2018.02.28-04.00.24:380][876]PIE: New page: PIE session: FirstPersonExampleMap (Feb 27, 2018, 6:00:24 PM)
+[2018.02.28-04.00.24:380][876]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.28-04.00.24:394][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014409s)
+[2018.02.28-04.00.24:395][876]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-04.00.24:395][876]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2018.02.28-04.00.24:395][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015559s)
+[2018.02.28-04.00.24:414][876]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.00.24:422][876]LogInit: FAudioDevice initialized.
+[2018.02.28-04.00.24:454][876]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-04.00.24:457][876]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.27-23.00.24
+[2018.02.28-04.00.24:458][876]LogWorld: Bringing up level for play took: 0.002103
+[2018.02.28-04.00.24:459][876]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.308
+[2018.02.28-04.00.24:459][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.00.35:445][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.00.35:477][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.01.50:624][401]LogEditorTransaction: Undo Align Top
+[2018.02.28-04.03.29:442][588]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-04.03.29:490][589]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-04.03.29:490][589]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.03.29:490][589]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-04.03.29:490][589]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.03.29:490][589]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-04.03.29:505][590]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-04.11.05:733][240]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.11.06:862][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.11.06:965][293]LogSavePackage: Save=96.61ms
+[2018.02.28-04.11.06:965][293]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player2C2A78DB4F7FE75936A1B5B658A70A53.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.11.06:966][293]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.11.14:207][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.11.14:244][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.11.14:245][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.11.14:245][ 18]PIE: New page: PIE session: FirstPersonExampleMap (Feb 27, 2018, 6:11:14 PM)
+[2018.02.28-04.11.14:245][ 18]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.28-04.11.14:260][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015473s)
+[2018.02.28-04.11.14:261][ 18]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.28-04.11.14:261][ 18]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2018.02.28-04.11.14:262][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016837s)
+[2018.02.28-04.11.14:279][ 18]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.11.14:287][ 18]LogInit: FAudioDevice initialized.
+[2018.02.28-04.11.14:317][ 18]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.28-04.11.14:320][ 18]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.27-23.11.14
+[2018.02.28-04.11.14:321][ 18]LogWorld: Bringing up level for play took: 0.002271
+[2018.02.28-04.11.14:322][ 18]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.83
+[2018.02.28-04.11.14:322][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.11.17:581][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.11.17:614][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.28-04.11.25:251][244]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.11.35:762][244]Cmd: MAP LOAD FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.28-04.11.35:762][244]LightingResults: New page: Lighting Build
+[2018.02.28-04.11.35:764][244]LoadErrors: New page: Loading map: main.umap
+[2018.02.28-04.11.35:764][244]MapCheck: New page: Map Check
+[2018.02.28-04.11.35:764][244]LightingResults: New page: Lighting Build
+[2018.02.28-04.11.35:786][244]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.28-04.11.35:827][244]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.28-04.11.35:886][244]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.035ms to complete.
+[2018.02.28-04.11.35:886][244]LogFileHelpers: Loading map 'main' took 0.125
+[2018.02.28-04.11.37:565][443]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.11.37:585][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.11.37:586][443]PIE: New page: PIE session: main (Feb 27, 2018, 6:11:37 PM)
+[2018.02.28-04.11.37:586][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.11.37:587][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001048s)
+[2018.02.28-04.11.37:587][443]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.11.37:587][443]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.02.28-04.11.37:588][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.002210s)
+[2018.02.28-04.11.37:606][443]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.11.37:612][443]LogInit: FAudioDevice initialized.
+[2018.02.28-04.11.37:642][443]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.11.37:643][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.11.37
+[2018.02.28-04.11.37:643][443]LogWorld: Bringing up level for play took: 0.000690
+[2018.02.28-04.11.37:645][443]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.493
+[2018.02.28-04.12.40:302][528]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.12.41:078][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.12.41:170][563]LogSavePackage: Save=88.71ms
+[2018.02.28-04.12.41:170][563]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player753921B243B54285E1D1A0ADE868F5E5.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.12.41:173][563]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.12.43:164][755]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.12.43:186][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.12.43:186][755]PIE: New page: PIE session: main (Feb 27, 2018, 6:12:43 PM)
+[2018.02.28-04.12.43:186][755]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.12.43:187][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001065s)
+[2018.02.28-04.12.43:188][755]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.12.43:188][755]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2018.02.28-04.12.43:188][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001902s)
+[2018.02.28-04.12.43:206][755]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.12.43:213][755]LogInit: FAudioDevice initialized.
+[2018.02.28-04.12.43:247][755]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.12.43:248][755]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.12.43
+[2018.02.28-04.12.43:248][755]LogWorld: Bringing up level for play took: 0.000736
+[2018.02.28-04.12.43:249][755]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.098
+[2018.02.28-04.13.01:398][575]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.13.01:420][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.13.01:420][575]PIE: New page: PIE session: main (Feb 27, 2018, 6:13:01 PM)
+[2018.02.28-04.13.01:420][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.13.01:421][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000940s)
+[2018.02.28-04.13.01:421][575]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.13.01:421][575]LogPlayLevel: PIE: World Init took: (0.000464s)
+[2018.02.28-04.13.01:422][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001649s)
+[2018.02.28-04.13.01:440][575]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.13.01:447][575]LogInit: FAudioDevice initialized.
+[2018.02.28-04.13.01:479][575]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.13.01:481][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.13.01
+[2018.02.28-04.13.01:481][575]LogWorld: Bringing up level for play took: 0.000930
+[2018.02.28-04.13.01:482][575]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.331
+[2018.02.28-04.13.01:484][575]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.01:484][575]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.09:284][576]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.09:284][576]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.12:330][577]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.12:330][577]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.12:517][578]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.12:517][578]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.12:699][579]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.12:699][579]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.12:863][580]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.12:863][580]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.13:021][581]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.13:021][581]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.13:207][582]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.13:207][582]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.13:346][583]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.13:346][583]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.13:529][584]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_AddControllerPitchInput', from offset 2339
+[2018.02.28-04.13.13:529][584]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:InpAxisEvt_lookUp_K2Node_InputAxisEvent_70
+	Function /Game/BLUEPRINTS/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+
+[2018.02.28-04.13.56:266][253]LogBlueprint: Warning: [BP_Player] 'BaseTurnRate' variable not found. Base class was probably changed. /Game/BLUEPRINTS/BP_Player.BP_Player
+[2018.02.28-04.14.41:651][629]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.14.42:489][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.14.42:596][669]LogSavePackage: Save=104.22ms
+[2018.02.28-04.14.42:596][669]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player0CEEE1FC46FC11156AE89BA5C329B7E7.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.14.42:598][669]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.14.44:746][894]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.14.44:766][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.14.44:766][894]PIE: New page: PIE session: main (Feb 27, 2018, 6:14:44 PM)
+[2018.02.28-04.14.44:766][894]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.14.44:767][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001063s)
+[2018.02.28-04.14.44:767][894]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.14.44:767][894]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2018.02.28-04.14.44:768][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001864s)
+[2018.02.28-04.14.44:785][894]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.14.44:793][894]LogInit: FAudioDevice initialized.
+[2018.02.28-04.14.44:823][894]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.14.44:825][894]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.14.44
+[2018.02.28-04.14.44:825][894]LogWorld: Bringing up level for play took: 0.000670
+[2018.02.28-04.14.44:826][894]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.325
+[2018.02.28-04.15.22:942][555]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.15.23:677][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.15.23:767][586]LogSavePackage: Save=86.87ms
+[2018.02.28-04.15.23:767][586]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_PlayerC25F4877419236A05100458E0D417C2A.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.15.23:769][586]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.15.27:036][912]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.15.27:057][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.15.27:057][912]PIE: New page: PIE session: main (Feb 27, 2018, 6:15:27 PM)
+[2018.02.28-04.15.27:057][912]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.15.27:058][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001097s)
+[2018.02.28-04.15.27:058][912]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.15.27:059][912]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.02.28-04.15.27:059][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001822s)
+[2018.02.28-04.15.27:079][912]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.15.27:086][912]LogInit: FAudioDevice initialized.
+[2018.02.28-04.15.27:117][912]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.15.27:119][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.15.27
+[2018.02.28-04.15.27:119][912]LogWorld: Bringing up level for play took: 0.001104
+[2018.02.28-04.15.27:120][912]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.031
+[2018.02.28-04.21.40:988][714]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.21.41:726][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.21.41:838][742]LogSavePackage: Save=104.60ms
+[2018.02.28-04.21.41:838][742]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_PlayerF64D9A6F436DE8A3BC61D98FB58FD9F0.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.21.41:840][742]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.21.44:370][  5]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.21.44:393][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.21.44:393][  5]PIE: New page: PIE session: main (Feb 27, 2018, 6:21:44 PM)
+[2018.02.28-04.21.44:393][  5]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.21.44:394][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001133s)
+[2018.02.28-04.21.44:394][  5]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.21.44:395][  5]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2018.02.28-04.21.44:395][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001989s)
+[2018.02.28-04.21.44:412][  5]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.21.44:420][  5]LogInit: FAudioDevice initialized.
+[2018.02.28-04.21.44:453][  5]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.21.44:454][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.21.44
+[2018.02.28-04.21.44:455][  5]LogWorld: Bringing up level for play took: 0.000780
+[2018.02.28-04.21.44:456][  5]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.696
+[2018.02.28-04.22.42:224][731]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-04.22.42:268][732]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-04.22.42:268][732]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.22.42:268][732]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-04.22.42:268][732]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.22.42:292][733]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-04.22.42:292][733]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-04.23.12:440][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.23.12:528][163]LogSavePackage: Save=85.50ms
+[2018.02.28-04.23.12:528][163]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player182714804E25DD562EA5C0A61489436E.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.23.12:529][163]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.23.14:173][336]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.23.14:194][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.23.14:194][336]PIE: New page: PIE session: main (Feb 27, 2018, 6:23:14 PM)
+[2018.02.28-04.23.14:194][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.23.14:195][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001078s)
+[2018.02.28-04.23.14:196][336]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.23.14:196][336]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2018.02.28-04.23.14:196][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001761s)
+[2018.02.28-04.23.14:214][336]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.23.14:221][336]LogInit: FAudioDevice initialized.
+[2018.02.28-04.23.14:255][336]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.23.14:257][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.23.14
+[2018.02.28-04.23.14:257][336]LogWorld: Bringing up level for play took: 0.000938
+[2018.02.28-04.23.14:258][336]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.893
+[2018.02.28-04.23.34:507][269]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.28-04.23.34:560][270]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GITJAM
+[2018.02.28-04.23.34:560][270]LogTemp: CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.23.34:560][270]LogTemp: Initial Dir: D:\UNREAL\UE_4.18
+[2018.02.28-04.23.34:560][270]LogTemp: Env CWD: D:\UNREAL\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.28-04.23.34:560][270]LogTemp: BranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries --- GameBranchPath = BIG-BOI/D/UNREAL/UE_4.18/Engine/Binaries
+[2018.02.28-04.23.34:579][271]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\CORVO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.28-04.24.20:809][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/main' took 0.017
+[2018.02.28-04.24.20:821][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.02.28-04.24.20:841][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.02.28-04.24.20:841][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.02.28-04.24.20:972][459]LogSavePackage: Save=124.02ms
+[2018.02.28-04.24.20:972][459]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/FirstPersonCharacter_Auto2D0FB818E422A1F11146688823BFA7179.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2018.02.28-04.24.20:972][459]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2018.02.28-04.24.20:973][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode] ([1] browsable assets)...
+[2018.02.28-04.24.20:973][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode]
+[2018.02.28-04.24.20:986][459]LogSavePackage: Save=6.78ms
+[2018.02.28-04.24.20:986][459]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/FirstPersonGameMode_Auto24B8D182248F04264F38639981E663685.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto2.uasset'
+[2018.02.28-04.24.20:987][459]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto2.uasset
+[2018.02.28-04.24.20:987][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BLUEPRINTS/BP_Player] ([1] browsable assets)...
+[2018.02.28-04.24.20:987][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/BLUEPRINTS/BP_Player]
+[2018.02.28-04.24.21:078][459]LogSavePackage: Save=87.90ms
+[2018.02.28-04.24.21:078][459]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player_Auto258B014D646CD4A6269961C8AB3780A23.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/BLUEPRINTS/BP_Player_Auto2.uasset'
+[2018.02.28-04.24.21:078][459]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Autosaves/Game/BLUEPRINTS/BP_Player_Auto2.uasset
+[2018.02.28-04.24.21:079][459]LogFileHelpers: Auto-saving content packages took 0.269
+[2018.02.28-04.26.53:160][417]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.26.55:042][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.26.55:162][544]LogSavePackage: Save=111.58ms
+[2018.02.28-04.26.55:162][544]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player3B20A9EC46AACA59825DA88648DD1A59.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.26.55:168][544]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.26.56:452][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.28-04.26.57:635][781]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.26.57:656][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.26.57:656][781]PIE: New page: PIE session: main (Feb 27, 2018, 6:26:57 PM)
+[2018.02.28-04.26.57:656][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.26.57:657][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2018.02.28-04.26.57:658][781]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.26.57:658][781]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2018.02.28-04.26.57:658][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.001868s)
+[2018.02.28-04.26.57:675][781]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.26.57:683][781]LogInit: FAudioDevice initialized.
+[2018.02.28-04.26.57:716][781]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.26.57:717][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.26.57
+[2018.02.28-04.26.57:717][781]LogWorld: Bringing up level for play took: 0.000832
+[2018.02.28-04.26.57:719][781]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main 0.567
+[2018.02.28-04.27.58:073][574]BlueprintLog: New page: Compile BP_Player
+[2018.02.28-04.27.58:810][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/BP_Player" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset" SILENT=true
+[2018.02.28-04.27.58:909][603]LogSavePackage: Save=95.44ms
+[2018.02.28-04.27.58:909][603]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/BP_Player2DBC737C408CA0D55F801ABCE50B2194.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset'
+[2018.02.28-04.27.58:912][603]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/BLUEPRINTS/BP_Player.uasset
+[2018.02.28-04.28.00:826][798]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.28.00:842][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.28.00:842][798]PIE: New page: PIE session: main (Feb 27, 2018, 6:28:00 PM)
+[2018.02.28-04.28.00:842][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.28.00:843][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001422s)
+[2018.02.28-04.28.00:844][798]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.28.00:844][798]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2018.02.28-04.28.00:844][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.002162s)
+[2018.02.28-04.28.00:859][798]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.28.00:867][798]LogInit: FAudioDevice initialized.
+[2018.02.28-04.28.00:897][798]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.28.00:898][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.28.00
+[2018.02.28-04.28.00:898][798]LogWorld: Bringing up level for play took: 0.000717
+[2018.02.28-04.28.00:900][798]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.252
+[2018.02.28-04.28.22:444][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/main" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.28-04.28.22:497][357]LogSavePackage: Save=30.89ms
+[2018.02.28-04.28.22:497][357]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/main2F9535414C146AD8891E51A24076F6CB.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap'
+[2018.02.28-04.28.22:498][357]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap
+[2018.02.28-04.47.18:913][928]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-04.47.18:930][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-04.47.18:930][928]PIE: New page: PIE session: main (Feb 27, 2018, 6:47:18 PM)
+[2018.02.28-04.47.18:931][928]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_main
+[2018.02.28-04.47.18:932][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001299s)
+[2018.02.28-04.47.18:932][928]LogAIModule: Creating AISystem for world main
+[2018.02.28-04.47.18:933][928]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.02.28-04.47.18:933][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/main.main to /Game/Maps/UEDPIE_0_main.main (0.002404s)
+[2018.02.28-04.47.18:953][928]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-04.47.18:961][928]LogInit: FAudioDevice initialized.
+[2018.02.28-04.47.18:995][928]LogLoad: Game class is 'GM_Tutorial_C'
+[2018.02.28-04.47.18:997][928]LogWorld: Bringing World /Game/Maps/UEDPIE_0_main.main up for play (max tick rate 0) at 2018.02.27-23.47.18
+[2018.02.28-04.47.18:997][928]LogWorld: Bringing up level for play took: 0.000884
+[2018.02.28-04.47.18:998][928]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_main -0.153
+[2018.02.28-06.21.45:150][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/main" FILE="../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.28-06.21.45:243][257]LogSavePackage: Save=27.15ms
+[2018.02.28-06.21.45:243][257]LogSavePackage: Moving '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/mainE70C92FE48A1B7657799FDA92D4E998D.tmp' to '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap'
+[2018.02.28-06.21.45:243][257]LogSavePackage: Display: Finished SavePackage ../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Maps/main.umap
+[2018.02.28-06.21.53:082][548]Cmd: QUIT_EDITOR
+[2018.02.28-06.21.53:780][548]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.28-06.21.53:819][548]LogExit: Preparing to exit.
+[2018.02.28-06.21.54:475][548]LogDirectoryWatcher: A directory notification for 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/' was aborted.
+[2018.02.28-06.21.54:649][548]LogExit: Editor shut down
+[2018.02.28-06.21.54:682][548]LogExit: Transaction tracking system shut down
+[2018.02.28-06.21.54:907][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../../../PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.28-06.21.54:908][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.28-06.21.55:100][548]LogExit: Object subsystem successfully closed.
+[2018.02.28-06.21.55:143][548]LogD3D11RHI: Shutdown
+[2018.02.28-06.21.55:143][548]LogD3D11RHI: CleanupD3DDevice
+[2018.02.28-06.21.55:166][548]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (554)
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.02.28-06.21.55:176][548]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.02.28-06.21.55:176][548]LogDirectoryWatcher: A directory notification for 'D:/UNREAL/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.02.28-06.21.55:184][548]LogDirectoryWatcher: A directory notification for 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Collections/' was aborted.
+[2018.02.28-06.21.55:184][548]LogDirectoryWatcher: A directory notification for 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Content/Developers/CORVO/Collections/' was aborted.
+[2018.02.28-06.21.55:184][548]LogDirectoryWatcher: A directory notification for 'D:/PERSONAL PROJECTS/gitThrowbackJam/GITJAM/GITJAM/Saved/Collections/' was aborted.
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.28-06.21.55:184][548]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.28-06.21.55:185][548]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.28-06.21.55:186][548]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.28-06.21.55:525][548]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.28-06.21.55:526][548]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.28-06.21.55:580][548]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.28-06.21.55:581][548]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.28-06.21.55:581][548]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.28-06.21.55:581][548]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.28-06.21.55:581][548]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.28-06.21.55:592][548]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.28-06.21.55:595][548]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.28-06.21.55:595][548]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.28-06.21.55:596][548]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.28-06.21.55:596][548]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.28-06.21.55:596][548]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.28-06.21.55:596][548]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.28-06.21.55:599][548]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.28-06.21.55:790][548]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.28-06.21.55:791][548]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.28-06.21.55:793][548]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.28-06.21.55:794][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.28-06.21.55:794][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.28-06.21.55:794][548]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.28-06.21.55:894][548]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.28-06.21.55:994][548]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.28-06.21.55:994][548]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.28-06.21.55:994][548]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.28-06.21.55:994][548]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.28-06.21.55:995][548]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.28-06.21.55:995][548]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.28-06.21.55:996][548]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.28-06.21.55:996][548]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.28-06.21.55:997][548]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.28-06.21.55:997][548]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.28-06.21.55:998][548]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.28-06.21.56:004][548]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.28-06.21.56:005][548]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.28-06.21.56:005][548]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.28-06.21.56:005][548]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.28-06.21.56:005][548]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.28-06.21.56:007][548]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.28-06.21.56:014][548]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.28-06.21.56:074][548]LogDerivedDataCache: Shutdown
+[2018.02.28-06.21.56:074][548]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.28-06.21.56:074][548]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.28-06.21.56:074][548]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.28-06.21.56:075][548]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.28-06.21.56:076][548]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.28-06.21.56:076][548]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.28-06.21.56:076][548]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF761373F-4FCE-58C6-63BD-6A98B17D515B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=6772d1154ea799ff7f1df09af2d1cc5b%7C092ebd36d4e8443cba4e3017568acc12%7Cfa24fd9d-7985-402b-947a-03daec9fc09a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.28-06.21.56:106][548]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.28-06.21.56:109][548]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.28-06.21.56:109][548]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.28-06.21.56:109][548]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.28-06.21.56:109][548]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.28-06.21.56:110][548]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.28-06.21.56:110][548]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.28-06.21.56:110][548]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.28-06.21.56:120][548]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.28-06.21.56:121][548]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.28-06.21.56:121][548]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.28-06.21.56:121][548]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.28-06.21.56:121][548]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.28-06.21.56:134][548]LogExit: Exiting.
+[2018.02.28-06.21.56:154][548]Log file closed, 02/28/18 01:21:56
