@@ -1,0 +1,2 @@
+C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\Definitions.throwback.h
+c:\users\corvo\documents\unreal projects\throwback\source\throwback\throwback.h

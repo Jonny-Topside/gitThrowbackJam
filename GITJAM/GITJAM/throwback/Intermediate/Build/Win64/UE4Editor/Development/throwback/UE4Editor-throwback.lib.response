@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-throwback.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\throwbackEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\changeMass.cpp.obj"
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\throwback.cpp.obj"
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\changeMass.gen.cpp.obj"
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\throwback.init.gen.cpp.obj"
+"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\Default.rc2.res"
+/OUT:"C:\Users\CORVO\Documents\Unreal Projects\throwback\Intermediate\Build\Win64\UE4Editor\Development\throwback\UE4Editor-throwback.lib"
+/INCLUDE:IMPLEMENT_MODULE_throwback

@@ -1,0 +1,3 @@
+C:\Users\CORVO\Documents\Unreal Projects\throwback\Source\throwback\throwback.Build.cs
+C:\Users\CORVO\Documents\Unreal Projects\throwback\Source\throwback.Target.cs
+C:\Users\CORVO\Documents\Unreal Projects\throwback\Source\throwbackEditor.Target.cs

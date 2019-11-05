@@ -1,0 +1,1662 @@
+﻿Log file open, 11/02/19 13:53:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: throwback
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.434498
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UNREAL/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.02-17.53.48:702][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.02-17.53.48:702][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:703][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.02-17.53.48:759][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.02-17.53.48:760][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.02-17.53.48:769][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.02-17.53.48:773][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.02-17.53.48:794][  0]LogHAL: Display: Platform has ~ 16 GB [17096138752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.02-17.53.48:794][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.02-17.53.48:794][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.02-17.53.48:794][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Scalability.ini]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.02-17.53.48:795][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.02-17.53.48:803][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.02-17.53.48:803][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.02-17.53.48:803][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Config/Windows/Engine.ini]
+[2019.11.02-17.53.48:826][  0]LogInit: Computer: BIG-BOI
+[2019.11.02-17.53.48:826][  0]LogInit: User: CORVO
+[2019.11.02-17.53.48:826][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.02-17.53.48:826][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.02-17.53.48:826][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.02-17.53.48:826][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.02-17.53.48:826][  0]LogMemory: Process Physical Memory: 101.03 MB used, 101.04 MB peak
+[2019.11.02-17.53.48:826][  0]LogMemory: Process Virtual Memory: 100.48 MB used, 100.48 MB peak
+[2019.11.02-17.53.48:826][  0]LogMemory: Physical Memory: 4869.71 MB used,  11434.44 MB free, 16304.15 MB total
+[2019.11.02-17.53.48:826][  0]LogMemory: Virtual Memory: 4668.30 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.02-17.53.48:849][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.02-17.53.49:551][  0]LogInit: Using OS detected language (en-US).
+[2019.11.02-17.53.49:551][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.02-17.53.49:626][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.02-17.53.50:170][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.02-17.53.50:830][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.02-17.53.50:830][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.02-17.53.51:865][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.11.02-17.53.51:865][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.02-17.53.51:924][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.11.02-17.53.51:924][  0]LogD3D11RHI:       2997/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.02-17.53.51:926][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.02-17.53.51:926][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.02-17.53.51:926][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.02-17.53.51:952][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.02-17.53.51:953][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.02-17.53.51:953][  0]LogWindows: EnumDisplayDevices:
+[2019.11.02-17.53.51:953][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.11.02-17.53.51:953][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.11.02-17.53.51:954][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.11.02-17.53.51:954][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.11.02-17.53.51:954][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.02-17.53.51:954][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.11.02-17.53.51:955][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.11.02-17.53.51:955][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.11.02-17.53.51:955][  0]LogRHI: Texture pool is 2097 MB (70% of 2997 MB)
+[2019.11.02-17.53.52:024][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.02-17.53.52:202][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.02-17.53.53:441][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.02-17.53.53:484][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.02-17.53.53:496][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.02-17.53.53:507][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.02-17.53.53:603][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.02-17.53.53:632][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.02-17.53.53:659][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.02-17.53.53:675][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.02-17.53.53:685][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.02-17.53.53:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.02-17.53.53:763][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.02-17.53.53:830][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.02-17.53.53:830][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.02-17.53.53:852][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.02-17.53.53:852][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.02-17.53.53:873][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.02-17.53.53:889][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.02-17.53.53:903][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.02-17.53.53:915][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.02-17.53.53:950][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.02-17.53.53:950][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.02-17.53.53:950][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.02-17.53.54:139][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.02-17.53.54:579][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/CORVO/Documents/Unreal Projects/throwback/Intermediate/Shaders/WorkingDirectory/7104/).
+[2019.11.02-17.53.54:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CORVO/AppData/Local/Temp/UnrealShaderWorkingDir/80D3D595401ADF96B69CA49655AACE6D/'.
+[2019.11.02-17.53.54:596][  0]LogXGEController: Cleaning working directory: C:/Users/CORVO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.02-17.53.54:597][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.02-17.53.54:597][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.02-17.53.54:597][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.02-17.53.56:422][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: Loaded boot cache 0.22s 73MB C:/Users/CORVO/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CORVO/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/CORVO/Documents/Unreal Projects/throwback/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/CORVO/Documents/Unreal Projects/throwback/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.02-17.53.56:648][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.02-17.53.56:697][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.02-17.53.56:697][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.02-17.53.56:697][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.02-17.53.56:699][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CORVO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.02-17.53.56:699][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.02-17.53.56:699][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.02-17.53.56:743][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.02-17.53.56:798][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.02-17.53.56:908][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.02-17.53.57:556][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
+[2019.11.02-17.54.00:837][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.02-17.54.02:179][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.02-17.54.02:179][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.02-17.54.02:179][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.02-17.54.02:179][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.02-17.54.02:188][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.02-17.54.02:504][  0]LogNetVersion: throwback 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 150138904)
+[2019.11.02-17.54.05:468][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.048992 seconds
+[2019.11.02-17.54.05:474][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.02-17.54.05:474][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.02-17.54.05:474][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.02-17.54.12:896][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.02-17.54.12:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.02-17.54.13:499][  0]SourceControl: Source control is disabled
+[2019.11.02-17.54.13:517][  0]SourceControl: Source control is disabled
+[2019.11.02-17.54.13:579][  0]SourceControl: Source control is disabled
+[2019.11.02-17.54.13:599][  0]SourceControl: Source control is disabled
+[2019.11.02-17.54.14:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.02-17.54.15:308][  0]LogOcInput: OculusInput pre-init called
+[2019.11.02-17.54.15:345][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.02-17.54.15:345][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.02-17.54.16:267][  0]LogEngine: Initializing Engine...
+[2019.11.02-17.54.16:367][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.11.02-17.54.16:401][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.023 s
+[2019.11.02-17.54.17:088][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.02-17.54.17:422][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.02-17.54.17:587][  0]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-17.54.17:621][  0]LogInit: FAudioDevice initialized.
+[2019.11.02-17.54.17:621][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.02-17.54.17:777][  0]LogDerivedDataCache: Saved boot cache 0.16s 73MB C:/Users/CORVO/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.02-17.54.17:777][  0]LogInit: Texture streaming: Enabled
+[2019.11.02-17.54.17:873][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.02-17.54.17:873][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={F0595EFB-4390-5764-E16E-45931D01A838}
+[2019.11.02-17.54.18:111][  0]LogInit: Transaction tracking system initialized
+[2019.11.02-17.54.18:383][  0]BlueprintLog: New page: Editor Load
+[2019.11.02-17.54.19:226][  0]LocalizationService: Localization service is disabled
+[2019.11.02-17.54.21:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Content/' took 0.01s
+[2019.11.02-17.54.21:935][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.02-17.54.21:935][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.02-17.54.24:503][  0]SourceControl: Source control is disabled
+[2019.11.02-17.54.24:538][  0]Cmd: MAP LOAD FILE="C:/Users/CORVO/Documents/Unreal Projects/throwback/Content/throwbackStuff/Maps/mainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-17.54.24:543][  0]LightingResults: New page: Lighting Build
+[2019.11.02-17.54.24:599][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-17.54.24:668][  0]MapCheck: New page: Map Check
+[2019.11.02-17.54.24:668][  0]LightingResults: New page: Lighting Build
+[2019.11.02-17.54.24:870][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.02-17.54.24:936][  0]LogAIModule: Creating AISystem for world mainMenu
+[2019.11.02-17.54.25:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-17.54.25:088][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.11.02-17.54.25:088][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-17.54.25:103][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 14.634ms to complete.
+[2019.11.02-17.54.25:103][  0]LogFileHelpers: Loading map 'mainMenu' took 0.582
+[2019.11.02-17.54.26:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-17.54.26:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-17.54.26:451][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-17.54.26:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-17.54.26:511][  0]LogCollectionManager: Loaded 0 collections in 0.000998 seconds
+[2019.11.02-17.54.26:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Collections/' took 0.00s
+[2019.11.02-17.54.26:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Content/Developers/CORVO/Collections/' took 0.00s
+[2019.11.02-17.54.26:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Content/Collections/' took 0.00s
+[2019.11.02-17.54.26:597][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.02-17.54.26:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2863 classes and 680 folders.
+[2019.11.02-17.54.26:681][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.02-17.54.27:607][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.02-17.54.27:699][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.02-17.54.28:018][  0]LogSlate: Took 0.045802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.02-17.54.28:054][  0]LogSlate: Took 0.016405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.02-17.54.28:103][  0]LogSlate: Took 0.035126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.02-17.54.28:410][  0]LogRenderer: Reallocating scene render targets to support 1008x560 Format 10 NumSamples 1 (Frame:1).
+[2019.11.02-17.54.28:765][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.02-17.54.28:765][  0]LogLoad: (Engine Initialization) Total time: 56.88 seconds
+[2019.11.02-17.54.28:765][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.02-17.54.28:986][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.02-17.54.29:171][  0]LogSlate: Took 0.018572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.02-17.54.29:910][ 12]LogAssetRegistry: Asset discovery search completed in 32.3548 seconds
+[2019.11.02-17.54.29:913][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.11.02-17.54.29:913][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.11.02-18.11.39:067][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.11.39:185][237]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.02-18.11.40:526][237]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.11.40:716][237]LogAssetEditorManager: Opening Asset editor for World /Game/throwbackStuff/Maps/Arena01.Arena01
+[2019.11.02-18.11.40:777][237]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.02-18.11.40:814][237]Cmd: MAP LOAD FILE="C:/Users/CORVO/Documents/Unreal Projects/throwback/Content/throwbackStuff/Maps/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-18.11.40:814][237]LightingResults: New page: Lighting Build
+[2019.11.02-18.11.40:815][237]LoadErrors: New page: Loading map: Arena01.umap
+[2019.11.02-18.11.40:815][237]LogWorld: UWorld::CleanupWorld for mainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.11.40:815][237]MapCheck: New page: Map Check
+[2019.11.02-18.11.40:815][237]LightingResults: New page: Lighting Build
+[2019.11.02-18.11.40:869][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.11.02-18.11.40:937][237]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.11.40:958][237]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.11.40:958][237]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.11.40:966][237]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-18.11.40:990][237]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.02-18.11.41:007][237]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-18.11.41:007][237]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2019.11.02-18.11.41:007][237]LogFileHelpers: Loading map 'Arena01' took 0.230
+[2019.11.02-18.11.45:739][771]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-18.11.45:759][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.11.45:759][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-18.11.45:764][771]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 10:11:45 AM)
+[2019.11.02-18.11.45:775][771]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.02-18.11.45:788][771]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.11.45:803][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014965s)
+[2019.11.02-18.11.45:805][771]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.11.45:805][771]LogPlayLevel: PIE: World Init took: (0.001983s)
+[2019.11.02-18.11.45:805][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.017233s)
+[2019.11.02-18.11.45:829][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.11.02-18.11.45:885][771]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-18.11.45:899][771]LogInit: FAudioDevice initialized.
+[2019.11.02-18.11.45:919][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.11.45:921][771]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.02-18.11.45:924][771]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.11.45:925][771]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.11.45
+[2019.11.02-18.11.45:932][771]LogWorld: Bringing up level for play took: 0.009461
+[2019.11.02-18.11.45:932][771]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.11.02-18.11.46:042][771]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.11.02-18.11.46:052][771]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.11.46:053][771]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.11.02-18.11.46:053][771]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.11.46:055][771]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.02-18.11.46:055][771]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.02-18.11.46:055][771]LogInit: WinSock: I am BIG-BOI (192.168.0.18:0)
+[2019.11.02-18.11.46:055][771]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.02-18.11.46:070][771]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.11.46:081][771]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.11.02-18.11.46:083][771]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 0.27
+[2019.11.02-18.11.46:093][771]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.11.46:103][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.11.46:103][771]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.02-18.11.46:103][771]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.11.46:103][771]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.11.02-18.11.46:103][771]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.02-18.11.46:104][771]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.02-18.11.46:104][771]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.11.46:104][771]LogNet: Game client on port 17777, rate 10000
+[2019.11.02-18.11.46:107][771]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.293
+[2019.11.02-18.11.46:111][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.11.46:126][771]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50362
+[2019.11.02-18.11.46:140][771]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 203078021215243247188057244215074145071011023137113237254027
+[2019.11.02-18.11.46:212][771]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 203078021215243247188057244215074145071011023137113237254027
+[2019.11.02-18.11.46:254][772]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.11.02-18.11.46:255][772]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50362
+[2019.11.02-18.11.46:256][772]LogHandshake: SendChallengeAck. InCookie: 203078021215243247188057244215074145071011023137113237254027
+[2019.11.02-18.11.46:256][772]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50362
+[2019.11.02-18.11.46:256][772]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.11.46:256][772]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 14:11:46, [UNetConnection] RemoteAddr: 127.0.0.1:50362, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.11.46:256][772]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50362, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.11.46:258][772]LogNetVersion: throwback 1.0.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 690971931)
+[2019.11.02-18.11.46:258][772]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.11.46:323][773]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.02-18.11.46:323][773]LogNet: Remote platform little endian=1
+[2019.11.02-18.11.46:323][773]LogNet: This platform little endian=1
+[2019.11.02-18.11.46:324][773]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.11.02-18.11.46:334][774]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68 userId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68 platform: NULL
+[2019.11.02-18.11.46:335][774]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.02-18.11.46:335][774]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.02-18.11.46:336][774]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2019.11.02-18.11.46:336][774]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.11.46:370][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.11.02-18.11.46:390][774]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.11.46:390][774]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.11.46:393][774]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.11.46:394][774]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.11.46
+[2019.11.02-18.11.46:407][774]LogWorld: Bringing up level for play took: 0.016035
+[2019.11.02-18.11.46:408][774]LogLoad: Took 0.072690 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.02-18.11.46:438][775]LogNet: Client netspeed is 10000
+[2019.11.02-18.11.46:438][775]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68?SplitscreenCount=1
+[2019.11.02-18.11.46:438][775]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.11.46:442][775]LogNet: Join succeeded: BIG-BOI-40C50AD2450E
+[2019.11.02-18.11.46:535][780]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.11.46:584][782]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.11.48:077][944]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.11.48:078][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.12.02:779][567]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.12.02:779][567]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.12.03:499][649]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.12.03:499][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.12.12:794][674]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.12.14:936][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.12.14:945][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.12.14:945][878]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.02-18.12.14:953][878]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.12.14:970][878]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.12.14:974][878]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2019.11.02-18.12.14:974][878]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2019.11.02-18.12.14:974][878]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68, Channels: 12, Time: 2019.11.02-18.12.14
+[2019.11.02-18.12.14:974][878]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68
+[2019.11.02-18.12.14:987][878]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2019.11.02-18.12.14:992][878]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.12.14:992][878]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.02-18.12.14:993][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.12.15:001][878]LogSlate: Window 'throwback Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.12.15:005][878]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.12.15:012][878]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2019.11.02-18.12.15:012][878]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2019.11.02-18.12.15:012][878]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:50362, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68
+[2019.11.02-18.12.15:012][878]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50362, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68, Channels: 12, Time: 2019.11.02-18.12.15
+[2019.11.02-18.12.15:012][878]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50362, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-40C50AD2450E193B9833A0BA3DB85C68
+[2019.11.02-18.12.15:013][878]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2019.11.02-18.12.15:014][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-18.12.15:014][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.12.15:056][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.11.02-18.12.15:119][879]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.02-18.12.15:119][879]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.11.02-18.12.16:119][981]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.12.16:126][981]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.12.20:229][467]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.02-18.12.20:995][489]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.02-18.12.23:809][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.02-18.12.23:926][820]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.11.02-18.12.24:859][922]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.02-18.12.30:704][556]LogSlate: Took 0.018572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.02-18.12.31:771][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.02-18.12.32:903][815]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.12.32:906][815]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.11.02-18.12.33:319][815]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.11.02-18.12.34:532][815]LogSlate: Took 0.012041 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.02-18.18.03:132][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.18.15:174][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.18.15:250][ 98]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.02-18.18.15:627][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.02-18.18.16:688][161]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-18.18.16:697][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.18.16:698][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-18.18.16:698][161]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 10:18:16 AM)
+[2019.11.02-18.18.16:698][161]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.18.16:710][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011687s)
+[2019.11.02-18.18.16:711][161]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.18.16:712][161]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2019.11.02-18.18.16:712][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.013547s)
+[2019.11.02-18.18.16:742][161]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.11.02-18.18.16:764][161]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-18.18.16:777][161]LogInit: FAudioDevice initialized.
+[2019.11.02-18.18.16:793][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.18.16:794][161]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.02-18.18.16:796][161]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.18.16:797][161]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.18.16
+[2019.11.02-18.18.16:798][161]LogWorld: Bringing up level for play took: 0.003127
+[2019.11.02-18.18.16:798][161]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.11.02-18.18.16:800][161]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.18.16:800][161]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.11.02-18.18.16:800][161]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.18.16:800][161]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.02-18.18.16:800][161]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.02-18.18.16:801][161]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.02-18.18.16:801][161]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.18.16:801][161]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.11.02-18.18.16:804][161]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 0.991
+[2019.11.02-18.18.16:814][161]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.18.16:823][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.18.16:823][161]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.02-18.18.16:824][161]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.18.16:824][161]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.11.02-18.18.16:824][161]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.02-18.18.16:824][161]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.02-18.18.16:825][161]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.18.16:825][161]LogNet: Game client on port 17777, rate 10000
+[2019.11.02-18.18.16:828][161]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.015
+[2019.11.02-18.18.16:834][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.18.16:834][161]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49300
+[2019.11.02-18.18.16:835][161]LogHandshake: SendConnectChallenge. Timestamp: 0.010746, Cookie: 054255254069248183109048156130249110002132103105252136024140
+[2019.11.02-18.18.16:836][161]LogHandshake: SendChallengeResponse. Timestamp: 0.010746, Cookie: 054255254069248183109048156130249110002132103105252136024140
+[2019.11.02-18.18.16:898][162]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49300
+[2019.11.02-18.18.16:898][162]LogHandshake: SendChallengeAck. InCookie: 054255254069248183109048156130249110002132103105252136024140
+[2019.11.02-18.18.16:898][162]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49300
+[2019.11.02-18.18.16:898][162]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.18.16:898][162]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 14:18:16, [UNetConnection] RemoteAddr: 127.0.0.1:49300, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.18.16:898][162]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49300, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.18.16:900][162]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.18.16:928][163]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.02-18.18.16:928][163]LogNet: Remote platform little endian=1
+[2019.11.02-18.18.16:928][163]LogNet: This platform little endian=1
+[2019.11.02-18.18.16:929][163]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.02-18.18.16:944][164]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F userId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F platform: NULL
+[2019.11.02-18.18.16:945][164]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.02-18.18.16:945][164]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.02-18.18.16:945][164]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2019.11.02-18.18.16:945][164]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.18.16:974][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.11.02-18.18.16:988][164]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.18.16:988][164]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.18.16:990][164]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.18.16:991][164]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.18.16
+[2019.11.02-18.18.16:991][164]LogWorld: Bringing up level for play took: 0.001778
+[2019.11.02-18.18.16:991][164]LogLoad: Took 0.045822 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.02-18.18.17:023][165]LogNet: Client netspeed is 10000
+[2019.11.02-18.18.17:023][165]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F?SplitscreenCount=1
+[2019.11.02-18.18.17:024][165]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.18.17:026][165]LogNet: Join succeeded: BIG-BOI-22B4D65B4DF8
+[2019.11.02-18.18.17:170][174]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.18.17:188][175]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.18.18:153][238]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.18.18:154][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.18.34:252][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.18.34:252][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.18.34:252][322]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.02-18.18.34:262][322]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.18.34:265][322]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.18.34:271][322]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2019.11.02-18.18.34:271][322]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2019.11.02-18.18.34:271][322]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F, Channels: 12, Time: 2019.11.02-18.18.34
+[2019.11.02-18.18.34:271][322]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F
+[2019.11.02-18.18.34:271][322]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2019.11.02-18.18.34:272][322]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.18.34:272][322]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.02-18.18.34:272][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.18.34:280][322]LogSlate: Window 'throwback Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.18.34:288][322]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.18.34:300][322]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2019.11.02-18.18.34:301][322]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2019.11.02-18.18.34:301][322]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49300, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F
+[2019.11.02-18.18.34:301][322]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49300, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F, Channels: 12, Time: 2019.11.02-18.18.34
+[2019.11.02-18.18.34:301][322]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49300, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-22B4D65B4DF8911BEBDFE0BF2A4F1E9F
+[2019.11.02-18.18.34:301][322]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2019.11.02-18.18.34:302][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-18.18.34:302][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.18.34:338][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.11.02-18.18.34:428][323]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.02-18.18.34:428][323]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.02-18.18.36:164][470]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.18.36:173][470]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.18.39:709][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.18.48:372][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.21.03:692][120]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.02-18.21.09:117][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.21.11:300][980]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-18.21.11:309][980]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.11:309][980]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-18.21.11:310][980]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2019.11.02-18.21.11:593][980]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.02-18.21.11:593][980]LogPlayLevel: PlayLevel: Blueprint regeneration took 284 ms (1 blueprints)
+[2019.11.02-18.21.11:593][980]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 10:21:11 AM)
+[2019.11.02-18.21.11:593][980]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.21.11:605][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011360s)
+[2019.11.02-18.21.11:606][980]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.21.11:606][980]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2019.11.02-18.21.11:606][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.013101s)
+[2019.11.02-18.21.11:636][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.02-18.21.11:660][980]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-18.21.11:674][980]LogInit: FAudioDevice initialized.
+[2019.11.02-18.21.11:689][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.21.11:689][980]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.02-18.21.11:691][980]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.21.11:692][980]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.21.11
+[2019.11.02-18.21.11:693][980]LogWorld: Bringing up level for play took: 0.003151
+[2019.11.02-18.21.11:693][980]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.02-18.21.11:695][980]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.11:696][980]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2019.11.02-18.21.11:696][980]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.11:696][980]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.02-18.21.11:696][980]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.02-18.21.11:696][980]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.02-18.21.11:696][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.11:696][980]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2019.11.02-18.21.11:699][980]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 -0.115
+[2019.11.02-18.21.11:709][980]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.11:718][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.21.11:718][980]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.02-18.21.11:718][980]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.11:718][980]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2019.11.02-18.21.11:718][980]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.02-18.21.11:719][980]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.02-18.21.11:719][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.11:719][980]LogNet: Game client on port 17777, rate 10000
+[2019.11.02-18.21.11:722][980]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.092
+[2019.11.02-18.21.11:729][980]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.11:729][980]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51213
+[2019.11.02-18.21.11:729][980]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 230160068118254123024006207211138011025027160001110109238251
+[2019.11.02-18.21.11:730][980]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 230160068118254123024006207211138011025027160001110109238251
+[2019.11.02-18.21.11:773][981]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51213
+[2019.11.02-18.21.11:773][981]LogHandshake: SendChallengeAck. InCookie: 230160068118254123024006207211138011025027160001110109238251
+[2019.11.02-18.21.11:774][981]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51213
+[2019.11.02-18.21.11:774][981]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.11:774][981]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 14:21:11, [UNetConnection] RemoteAddr: 127.0.0.1:51213, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.11:774][981]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51213, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.11:775][981]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.11:797][982]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.02-18.21.11:797][982]LogNet: Remote platform little endian=1
+[2019.11.02-18.21.11:797][982]LogNet: This platform little endian=1
+[2019.11.02-18.21.11:798][982]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.11.02-18.21.11:822][983]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD userId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD platform: NULL
+[2019.11.02-18.21.11:823][983]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.02-18.21.11:824][983]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.02-18.21.11:824][983]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2019.11.02-18.21.11:824][983]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.21.11:867][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.02-18.21.11:879][983]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.21.11:880][983]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.11:885][983]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.21.11:886][983]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.21.11
+[2019.11.02-18.21.11:886][983]LogWorld: Bringing up level for play took: 0.005545
+[2019.11.02-18.21.11:887][983]LogLoad: Took 0.063019 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.02-18.21.11:915][984]LogNet: Client netspeed is 10000
+[2019.11.02-18.21.11:915][984]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD?SplitscreenCount=1
+[2019.11.02-18.21.11:916][984]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.11:919][984]LogNet: Join succeeded: BIG-BOI-F8B46C8747B3
+[2019.11.02-18.21.12:044][991]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.12:055][992]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.13:166][ 99]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.21.13:166][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.21.14:614][232]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.21:933][750]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.29:151][398]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.30:136][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.21.30:220][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.30:221][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.21.30:221][487]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.02-18.21.30:230][487]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.21.30:233][487]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.21.30:238][487]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2019.11.02-18.21.30:238][487]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2019.11.02-18.21.30:238][487]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD, Channels: 12, Time: 2019.11.02-18.21.30
+[2019.11.02-18.21.30:238][487]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD
+[2019.11.02-18.21.30:238][487]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2019.11.02-18.21.30:239][487]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.21.30:239][487]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.02-18.21.30:239][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.21.30:248][487]LogSlate: Window 'throwback Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.21.30:251][487]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.21.30:261][487]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2019.11.02-18.21.30:261][487]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2019.11.02-18.21.30:261][487]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:51213, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD
+[2019.11.02-18.21.30:261][487]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51213, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD, Channels: 12, Time: 2019.11.02-18.21.30
+[2019.11.02-18.21.30:261][487]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51213, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-F8B46C8747B360224BB752BF8C9AE8BD
+[2019.11.02-18.21.30:261][487]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2019.11.02-18.21.30:262][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-18.21.30:262][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.30:300][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.11.02-18.21.30:369][488]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.02-18.21.30:369][488]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.02-18.21.31:413][600]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.21.31:421][600]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.21.32:377][706]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.02-18.21.37:714][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.37:714][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-18.21.37:714][331]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 10:21:37 AM)
+[2019.11.02-18.21.37:714][331]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.21.37:725][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011007s)
+[2019.11.02-18.21.37:726][331]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.21.37:727][331]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2019.11.02-18.21.37:727][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.012493s)
+[2019.11.02-18.21.37:753][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.11.02-18.21.37:775][331]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-18.21.37:787][331]LogInit: FAudioDevice initialized.
+[2019.11.02-18.21.37:787][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.02-18.21.37:796][331]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.02-18.21.37:798][331]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.21.37:799][331]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.21.37
+[2019.11.02-18.21.37:799][331]LogWorld: Bringing up level for play took: 0.001786
+[2019.11.02-18.21.37:800][331]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.02-18.21.37:801][331]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.37:801][331]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2019.11.02-18.21.37:801][331]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.37:801][331]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.02-18.21.37:801][331]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.02-18.21.37:802][331]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.02-18.21.37:802][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.37:802][331]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2019.11.02-18.21.37:802][331]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 -0.011
+[2019.11.02-18.21.37:812][331]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.37:822][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.21.37:822][331]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.02-18.21.37:822][331]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.37:823][331]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2019.11.02-18.21.37:823][331]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.02-18.21.37:823][331]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.02-18.21.37:823][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.37:823][331]LogNet: Game client on port 17777, rate 10000
+[2019.11.02-18.21.37:827][331]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.013
+[2019.11.02-18.21.37:833][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.21.37:833][331]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64236
+[2019.11.02-18.21.37:833][331]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 087176108218173124017070073221213068081071223186184220012017
+[2019.11.02-18.21.37:834][331]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 087176108218173124017070073221213068081071223186184220012017
+[2019.11.02-18.21.37:879][332]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64236
+[2019.11.02-18.21.37:879][332]LogHandshake: SendChallengeAck. InCookie: 087176108218173124017070073221213068081071223186184220012017
+[2019.11.02-18.21.37:879][332]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64236
+[2019.11.02-18.21.37:879][332]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.21.37:879][332]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 14:21:37, [UNetConnection] RemoteAddr: 127.0.0.1:64236, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.37:879][332]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64236, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.37:880][332]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.21.37:887][333]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.02-18.21.37:887][333]LogNet: Remote platform little endian=1
+[2019.11.02-18.21.37:887][333]LogNet: This platform little endian=1
+[2019.11.02-18.21.37:888][333]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.11.02-18.21.37:894][334]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-98C786E340BEEBB84848FFA8D5949648 userId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648 platform: NULL
+[2019.11.02-18.21.37:895][334]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.02-18.21.37:896][334]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.02-18.21.37:896][334]LogWorld: BeginTearingDown for /Temp/Untitled_4
+[2019.11.02-18.21.37:896][334]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.21.37:925][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.11.02-18.21.37:938][334]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.21.37:938][334]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.21.37:940][334]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.21.37:941][334]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.21.37
+[2019.11.02-18.21.37:941][334]LogWorld: Bringing up level for play took: 0.002201
+[2019.11.02-18.21.37:942][334]LogLoad: Took 0.046710 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.02-18.21.37:966][335]LogNet: Client netspeed is 10000
+[2019.11.02-18.21.37:966][335]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-98C786E340BEEBB84848FFA8D5949648?SplitscreenCount=1
+[2019.11.02-18.21.37:967][335]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.37:969][335]LogNet: Join succeeded: BIG-BOI-98C786E340BE
+[2019.11.02-18.21.38:128][350]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.38:150][352]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.21.39:183][475]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0CA0
+[2019.11.02-18.21.39:183][475]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.21.41:439][726]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.21.51:927][817]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.02-18.21.55:023][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.22.07:057][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.41.32:698][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.41.32:699][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.41.32:699][412]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.02-18.41.32:709][412]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.41.32:715][412]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.41.32:721][412]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2019.11.02-18.41.32:721][412]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2019.11.02-18.41.32:721][412]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648, Channels: 12, Time: 2019.11.02-18.41.32
+[2019.11.02-18.41.32:721][412]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648
+[2019.11.02-18.41.32:721][412]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2019.11.02-18.41.32:722][412]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.41.32:722][412]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.02-18.41.32:722][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.41.32:723][412]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.41.32:744][412]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2019.11.02-18.41.32:744][412]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2019.11.02-18.41.32:744][412]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64236, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648
+[2019.11.02-18.41.32:744][412]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64236, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648, Channels: 12, Time: 2019.11.02-18.41.32
+[2019.11.02-18.41.32:744][412]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64236, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-98C786E340BEEBB84848FFA8D5949648
+[2019.11.02-18.41.32:745][412]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2019.11.02-18.41.32:746][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-18.41.32:746][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.41.32:775][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.41.32:781][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.02-18.41.32:967][413]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.02-18.41.32:967][413]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.02-18.41.33:959][483]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.41.33:969][483]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.43.07:133][895]LogEditorTransaction: Undo Create Pin Link
+[2019.11.02-18.46.57:199][482]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.11.02-18.46.57:420][482]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Arena01_Auto1BB177C414F2FFE3F18CC498C0BD8D87A.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/throwbackStuff/Maps/Arena01_Auto1.umap'
+[2019.11.02-18.46.57:437][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.263
+[2019.11.02-18.46.57:437][482]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.263
+[2019.11.02-18.46.57:440][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.02-18.46.57:474][482]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.02-18.46.57:474][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.02-18.46.57:566][482]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto18B090F2842CD54775DADA09F0C884F9D.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2019.11.02-18.46.57:568][482]LogFileHelpers: Auto-saving content packages took 0.129
+[2019.11.02-18.49.39:420][835]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.02-18.49.39:613][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.11.02-18.49.41:308][971]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.02-18.49.41:317][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.49.41:317][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-18.49.41:317][971]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 10:49:41 AM)
+[2019.11.02-18.49.41:318][971]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.49.41:330][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011897s)
+[2019.11.02-18.49.41:331][971]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.49.41:331][971]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2019.11.02-18.49.41:331][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.013517s)
+[2019.11.02-18.49.41:361][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.02-18.49.41:383][971]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-18.49.41:397][971]LogInit: FAudioDevice initialized.
+[2019.11.02-18.49.41:410][971]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.02-18.49.41:413][971]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.49.41:414][971]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.49.41
+[2019.11.02-18.49.41:414][971]LogWorld: Bringing up level for play took: 0.002775
+[2019.11.02-18.49.41:414][971]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2019.11.02-18.49.41:416][971]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.49.41:416][971]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2019.11.02-18.49.41:416][971]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.49.41:417][971]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.02-18.49.41:417][971]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.02-18.49.41:417][971]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.02-18.49.41:417][971]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.49.41:417][971]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2019.11.02-18.49.41:417][971]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 -0.396
+[2019.11.02-18.49.41:426][971]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.49.41:436][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.49.41:436][971]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.02-18.49.41:437][971]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.49.41:437][971]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2019.11.02-18.49.41:437][971]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.02-18.49.41:437][971]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.02-18.49.41:438][971]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.49.41:438][971]LogNet: Game client on port 17777, rate 10000
+[2019.11.02-18.49.41:443][971]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.37
+[2019.11.02-18.49.41:449][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.49.41:450][971]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56894
+[2019.11.02-18.49.41:450][971]LogHandshake: SendConnectChallenge. Timestamp: 0.010621, Cookie: 233186123082113136204220057051241114027005177101141183001206
+[2019.11.02-18.49.41:451][971]LogHandshake: SendChallengeResponse. Timestamp: 0.010621, Cookie: 233186123082113136204220057051241114027005177101141183001206
+[2019.11.02-18.49.41:515][972]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56894
+[2019.11.02-18.49.41:515][972]LogHandshake: SendChallengeAck. InCookie: 233186123082113136204220057051241114027005177101141183001206
+[2019.11.02-18.49.41:516][972]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56894
+[2019.11.02-18.49.41:516][972]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.02-18.49.41:516][972]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 14:49:41, [UNetConnection] RemoteAddr: 127.0.0.1:56894, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.49.41:516][972]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56894, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.49.41:517][972]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.02-18.49.41:534][973]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.02-18.49.41:534][973]LogNet: Remote platform little endian=1
+[2019.11.02-18.49.41:534][973]LogNet: This platform little endian=1
+[2019.11.02-18.49.41:535][973]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2019.11.02-18.49.41:555][974]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E userId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E platform: NULL
+[2019.11.02-18.49.41:556][974]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.02-18.49.41:557][974]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.02-18.49.41:557][974]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2019.11.02-18.49.41:557][974]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.49.41:588][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.02-18.49.41:602][974]LogAIModule: Creating AISystem for world Arena01
+[2019.11.02-18.49.41:602][974]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.02-18.49.41:605][974]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.02-18.49.41:606][974]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-14.49.41
+[2019.11.02-18.49.41:606][974]LogWorld: Bringing up level for play took: 0.002445
+[2019.11.02-18.49.41:607][974]LogLoad: Took 0.049822 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.02-18.49.41:643][975]LogNet: Client netspeed is 10000
+[2019.11.02-18.49.41:643][975]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E?SplitscreenCount=1
+[2019.11.02-18.49.41:643][975]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.49.41:646][975]LogNet: Join succeeded: BIG-BOI-6BBC657B4AC9
+[2019.11.02-18.49.41:779][982]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.49.41:796][983]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.02-18.49.44:507][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.49.45:491][144]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0D30
+[2019.11.02-18.49.45:491][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.50.08:550][904]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0D30
+[2019.11.02-18.50.08:550][904]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.50.14:533][621]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0D30
+[2019.11.02-18.50.14:533][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.50.15:103][689]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0D30
+[2019.11.02-18.50.15:103][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.02-18.50.23:844][710]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-18.50.25:878][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.50.25:879][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.50.25:879][824]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.02-18.50.25:889][824]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-18.50.25:893][824]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.50.25:898][824]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2019.11.02-18.50.25:898][824]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2019.11.02-18.50.25:899][824]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E, Channels: 12, Time: 2019.11.02-18.50.25
+[2019.11.02-18.50.25:899][824]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E
+[2019.11.02-18.50.25:899][824]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2019.11.02-18.50.25:899][824]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.02-18.50.25:899][824]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.02-18.50.25:900][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.50.25:900][824]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.02-18.50.25:921][824]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2019.11.02-18.50.25:921][824]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2019.11.02-18.50.25:922][824]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56894, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E
+[2019.11.02-18.50.25:922][824]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56894, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E, Channels: 12, Time: 2019.11.02-18.50.25
+[2019.11.02-18.50.25:922][824]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56894, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-6BBC657B4AC9FFB3F4BA20B212811B2E
+[2019.11.02-18.50.25:922][824]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2019.11.02-18.50.25:923][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-18.50.25:923][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.02-18.50.25:960][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-18.50.25:964][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.02-18.50.26:115][825]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.02-18.50.26:115][825]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.11.02-18.50.27:278][907]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.50.27:285][907]LogSlate: Window 'Message Log' being destroyed
+[2019.11.02-18.50.29:596][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-18.57.42:030][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.02-18.57.42:227][143]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Arena01_Auto2DFF4C0A44EFA470E9B0795B1EDD475FE.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/throwbackStuff/Maps/Arena01_Auto2.umap'
+[2019.11.02-18.57.42:231][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.231
+[2019.11.02-18.57.42:231][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2019.11.02-23.01.19:220][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.05.48:420][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.02-23.05.48:420][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.029
+[2019.11.02-23.05.48:422][180]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.02-23.05.48:449][180]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.02-23.05.48:449][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.02-23.05.48:530][180]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto3AD70A91340438B918C5824839434028C.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2019.11.02-23.05.48:531][180]LogFileHelpers: Auto-saving content packages took 0.109
+[2019.11.02-23.24.13:192][448]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.02-23.52.05:690][619]LogEditorTransaction: Undo Move Node
+[2019.11.02-23.52.06:537][670]LogEditorTransaction: Undo Create Pin Link
+[2019.11.02-23.52.41:048][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.11.02-23.52.41:247][188]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Arena01_Auto441FBEA084AF53C316F2C0885D2907F19.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/throwbackStuff/Maps/Arena01_Auto4.umap'
+[2019.11.02-23.52.41:251][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.234
+[2019.11.02-23.52.41:251][188]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.234
+[2019.11.02-23.52.41:252][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.02-23.52.41:270][188]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.02-23.52.41:270][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.02-23.52.41:350][188]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto4EF0D3D404A9016EC6D2AEEA911D19E65.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2019.11.02-23.52.41:352][188]LogFileHelpers: Auto-saving content packages took 0.100
+[2019.11.03-00.11.24:809][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.03-00.12.26:168][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.11.03-00.12.26:168][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.025
+[2019.11.03-00.12.26:170][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.03-00.12.26:189][808]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.03-00.12.26:189][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.03-00.12.26:269][808]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto555061C504300D9DFC72ECDB80FEB6E7D.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2019.11.03-00.12.26:271][808]LogFileHelpers: Auto-saving content packages took 0.101
+[2019.11.03-00.23.59:911][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.03-00.23.59:911][410]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.024
+[2019.11.03-00.23.59:913][410]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.03-00.23.59:924][410]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.03-00.23.59:924][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.03-00.24.00:012][410]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto69690089F4235ED192E7C61ADD1FEC07A.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2019.11.03-00.24.00:014][410]LogFileHelpers: Auto-saving content packages took 0.101
+[2019.11.03-00.34.49:994][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.11.03-00.34.49:994][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.036
+[2019.11.03-00.34.49:996][  7]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.03-00.34.50:016][  7]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.03-00.34.50:016][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.03-00.34.50:099][  7]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto70AD8C1E240A8F3B735BC69B71CC8B47B.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2019.11.03-00.34.50:101][  7]LogFileHelpers: Auto-saving content packages took 0.105
+[2019.11.03-00.47.51:056][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.11.03-00.47.51:056][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/throwbackStuff/Maps/Arena01' took 0.026
+[2019.11.03-00.47.51:057][976]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.11.03-00.47.51:069][976]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.11.03-00.47.51:069][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.11.03-00.47.51:153][976]LogSavePackage: Moving 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/FirstPersonCharacter_Auto8AD1A23E24185C103CB2B0B801BED677D.tmp' to 'C:/Users/CORVO/Documents/Unreal Projects/throwback/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto8.uasset'
+[2019.11.03-00.47.51:154][976]LogFileHelpers: Auto-saving content packages took 0.097
+[2019.11.03-00.48.33:028][485]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.03-00.48.33:225][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.03-00.48.49:190][958]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.03-00.48.49:199][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.03-00.48.49:199][958]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.03-00.48.49:201][958]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2019.11.03-00.48.49:437][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.11.03-00.48.49:438][958]LogPlayLevel: PlayLevel: Blueprint regeneration took 238 ms (1 blueprints)
+[2019.11.03-00.48.49:438][958]PIE: New page: PIE session: Arena01 (Nov 2, 2019, 4:48:49 PM)
+[2019.11.03-00.48.49:438][958]LogPlayLevel: Creating play world package: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.03-00.48.49:450][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011921s)
+[2019.11.03-00.48.49:451][958]LogAIModule: Creating AISystem for world Arena01
+[2019.11.03-00.48.49:452][958]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2019.11.03-00.48.49:452][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/throwbackStuff/Maps/Arena01.Arena01 to /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 (0.013645s)
+[2019.11.03-00.48.49:484][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.11.03-00.48.49:507][958]LogInit: XAudio2 using 'HI DEF SPEAKERS (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.03-00.48.49:522][958]LogInit: FAudioDevice initialized.
+[2019.11.03-00.48.49:534][958]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.03-00.48.49:536][958]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.03-00.48.49:537][958]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-20.48.49
+[2019.11.03-00.48.49:537][958]LogWorld: Bringing up level for play took: 0.001710
+[2019.11.03-00.48.49:537][958]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2019.11.03-00.48.49:539][958]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.03-00.48.49:539][958]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2019.11.03-00.48.49:539][958]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.03-00.48.49:539][958]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.11.03-00.48.49:539][958]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.11.03-00.48.49:539][958]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2019.11.03-00.48.49:539][958]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.03-00.48.49:539][958]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2019.11.03-00.48.49:540][958]PIE: Play in editor start time for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01 -0.274
+[2019.11.03-00.48.49:556][958]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.03-00.48.49:575][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-00.48.49:575][958]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2019.11.03-00.48.49:575][958]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.03-00.48.49:575][958]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2019.11.03-00.48.49:576][958]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.11.03-00.48.49:576][958]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2019.11.03-00.48.49:576][958]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.03-00.48.49:576][958]LogNet: Game client on port 17777, rate 10000
+[2019.11.03-00.48.49:579][958]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.235
+[2019.11.03-00.48.49:592][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.03-00.48.49:592][958]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60055
+[2019.11.03-00.48.49:592][958]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 195166234233053031001171143015081106132092132063212056185076
+[2019.11.03-00.48.49:593][958]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 195166234233053031001171143015081106132092132063212056185076
+[2019.11.03-00.48.49:634][959]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60055
+[2019.11.03-00.48.49:634][959]LogHandshake: SendChallengeAck. InCookie: 195166234233053031001171143015081106132092132063212056185076
+[2019.11.03-00.48.49:635][959]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60055
+[2019.11.03-00.48.49:635][959]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.11.03-00.48.49:635][959]LogNet: NotifyAcceptedConnection: Name: Arena01, TimeStamp: 11/02/19 20:48:49, [UNetConnection] RemoteAddr: 127.0.0.1:60055, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.03-00.48.49:635][959]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60055, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.03-00.48.49:636][959]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.11.03-00.48.49:649][960]LogNet: NotifyAcceptingChannel Control 0 server World /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01: Accepted
+[2019.11.03-00.48.49:649][960]LogNet: Remote platform little endian=1
+[2019.11.03-00.48.49:649][960]LogNet: This platform little endian=1
+[2019.11.03-00.48.49:650][960]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2019.11.03-00.48.49:657][961]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8 userId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8 platform: NULL
+[2019.11.03-00.48.49:658][961]LogNet: Welcomed by server (Level: /Game/throwbackStuff/Maps/UEDPIE_1_Arena01, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2019.11.03-00.48.49:658][961]LogLoad: LoadMap: 127.0.0.1:17777//Game/throwbackStuff/Maps/UEDPIE_1_Arena01?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2019.11.03-00.48.49:658][961]LogWorld: BeginTearingDown for /Temp/Untitled_6
+[2019.11.03-00.48.49:658][961]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.48.49:691][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.11.03-00.48.49:705][961]LogAIModule: Creating AISystem for world Arena01
+[2019.11.03-00.48.49:705][961]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.11.03-00.48.49:707][961]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01:PersistentLevel.throwbackCollider_Blueprint.ballSpawnLocation' 
+[2019.11.03-00.48.49:708][961]LogWorld: Bringing World /Game/throwbackStuff/Maps/UEDPIE_2_Arena01.Arena01 up for play (max tick rate 0) at 2019.11.02-20.48.49
+[2019.11.03-00.48.49:708][961]LogWorld: Bringing up level for play took: 0.002157
+[2019.11.03-00.48.49:709][961]LogLoad: Took 0.050347 seconds to LoadMap(/Game/throwbackStuff/Maps/UEDPIE_1_Arena01)
+[2019.11.03-00.48.49:725][962]LogNet: Client netspeed is 10000
+[2019.11.03-00.48.49:725][962]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8?SplitscreenCount=1
+[2019.11.03-00.48.49:726][962]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.03-00.48.49:729][962]LogNet: Join succeeded: BIG-BOI-58ACD2CF4248
+[2019.11.03-00.48.49:881][971]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.03-00.48.49:912][973]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.11.03-00.48.50:492][ 39]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	FirstPersonCharacter_C /Game/throwbackStuff/Maps/UEDPIE_1_Arena01.Arena01:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0D55
+[2019.11.03-00.48.50:492][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitComponent". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Add Impulse
+[2019.11.03-00.49.03:595][591]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.03-00.49.04:401][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.11.03-00.49.06:033][661]LogSlate: Window 'Save Content' being destroyed
+[2019.11.03-00.49.06:115][661]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.11.03-00.49.06:135][661]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.06:165][661]LogSlate: Window 'throwback - Unreal Editor' being destroyed
+[2019.11.03-00.49.06:222][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.03-00.49.06:222][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-00.49.06:222][661]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_2_Arena01
+[2019.11.03-00.49.06:232][661]LogSlate: Window 'throwback Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.03-00.49.06:233][661]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.03-00.49.06:247][661]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.06:256][661]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2019.11.03-00.49.06:256][661]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2019.11.03-00.49.06:256][661]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8, Channels: 12, Time: 2019.11.03-00.49.06
+[2019.11.03-00.49.06:256][661]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8
+[2019.11.03-00.49.06:256][661]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2019.11.03-00.49.06:257][661]LogWorld: BeginTearingDown for /Game/throwbackStuff/Maps/UEDPIE_1_Arena01
+[2019.11.03-00.49.06:257][661]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2019.11.03-00.49.06:258][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-00.49.06:258][661]LogWorld: UWorld::CleanupWorld for Arena01, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.06:265][661]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2019.11.03-00.49.06:265][661]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2019.11.03-00.49.06:265][661]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60055, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8
+[2019.11.03-00.49.06:265][661]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60055, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8, Channels: 12, Time: 2019.11.03-00.49.06
+[2019.11.03-00.49.06:266][661]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60055, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:BIG-BOI-58ACD2CF42485CDC44464BAEB5F9C9A8
+[2019.11.03-00.49.06:266][661]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2019.11.03-00.49.06:266][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.03-00.49.06:266][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel' has LevelScriptBlueprint '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01' with GeneratedClass '/Game/throwbackStuff/Maps/Arena01.Arena01_C' with ClassGeneratedBy '/Game/throwbackStuff/Maps/Arena01.Arena01:PersistentLevel.Arena01'
+[2019.11.03-00.49.06:297][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-00.49.06:304][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.03-00.49.06:402][662]Cmd: QUIT_EDITOR
+[2019.11.03-00.49.07:139][662]LogExit: Preparing to exit.
+[2019.11.03-00.49.07:623][662]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.07:625][662]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.07:627][662]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.07:629][662]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.07:672][662]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.11.03-00.49.07:692][662]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.03-00.49.07:692][662]LogExit: Editor shut down
+[2019.11.03-00.49.07:693][662]LogExit: Transaction tracking system shut down
+[2019.11.03-00.49.08:520][662]LogExit: Object subsystem successfully closed.
+[2019.11.03-00.49.08:585][662]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module BlueprintGraph (676)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (672)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module Voice (670)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
+[2019.11.03-00.49.08:904][662]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
+[2019.11.03-00.49.08:905][662]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
+[2019.11.03-00.49.08:905][662]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
+[2019.11.03-00.49.08:905][662]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module BspMode (638)
+[2019.11.03-00.49.08:927][662]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module OculusMR (630)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
+[2019.11.03-00.49.08:944][662]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
+[2019.11.03-00.49.08:972][662]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
+[2019.11.03-00.49.08:972][662]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
+[2019.11.03-00.49.08:988][662]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
+[2019.11.03-00.49.09:000][662]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module SessionServices (574)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
+[2019.11.03-00.49.09:001][662]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
+[2019.11.03-00.49.09:012][662]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
+[2019.11.03-00.49.09:012][662]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
+[2019.11.03-00.49.09:021][662]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
+[2019.11.03-00.49.09:021][662]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
+[2019.11.03-00.49.09:022][662]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
+[2019.11.03-00.49.09:022][662]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
+[2019.11.03-00.49.09:022][662]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
+[2019.11.03-00.49.09:022][662]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
+[2019.11.03-00.49.09:022][662]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
+[2019.11.03-00.49.10:070][662]LogModuleManager: Shutting down and abandoning module MergeActors (534)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module XmlParser (522)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module Blutility (520)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
+[2019.11.03-00.49.10:097][662]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
+[2019.11.03-00.49.10:114][662]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
+[2019.11.03-00.49.10:114][662]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
+[2019.11.03-00.49.10:122][662]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
+[2019.11.03-00.49.10:122][662]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
+[2019.11.03-00.49.10:174][662]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2019.11.03-00.49.10:174][662]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
+[2019.11.03-00.49.10:182][662]LogModuleManager: Shutting down and abandoning module Layers (496)
+[2019.11.03-00.49.10:183][662]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
+[2019.11.03-00.49.10:183][662]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
+[2019.11.03-00.49.10:183][662]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
+[2019.11.03-00.49.10:184][662]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
+[2019.11.03-00.49.10:193][662]LogModuleManager: Shutting down and abandoning module Persona (486)
+[2019.11.03-00.49.10:209][662]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
+[2019.11.03-00.49.10:209][662]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
+[2019.11.03-00.49.10:209][662]LogModuleManager: Shutting down and abandoning module Kismet (480)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module StructViewer (474)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module Toolbox (470)
+[2019.11.03-00.49.10:215][662]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.11.03-00.49.10:223][662]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.11.03-00.49.10:223][662]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.11.03-00.49.10:223][662]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.11.03-00.49.10:224][662]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.11.03-00.49.10:227][662]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2019.11.03-00.49.10:278][662]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module BackChannel (372)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
+[2019.11.03-00.49.10:279][662]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
+[2019.11.03-00.49.10:285][662]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
+[2019.11.03-00.49.10:285][662]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
+[2019.11.03-00.49.10:285][662]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
+[2019.11.03-00.49.10:285][662]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
+[2019.11.03-00.49.10:286][662]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
+[2019.11.03-00.49.10:286][662]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
+[2019.11.03-00.49.10:286][662]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
+[2019.11.03-00.49.10:286][662]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
+[2019.11.03-00.49.10:286][662]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
+[2019.11.03-00.49.10:299][662]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
+[2019.11.03-00.49.10:299][662]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
+[2019.11.03-00.49.10:299][662]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2019.11.03-00.49.10:311][662]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2019.11.03-00.49.10:312][662]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
+[2019.11.03-00.49.10:321][662]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.11.03-00.49.10:326][662]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.11.03-00.49.10:426][662]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.11.03-00.49.10:527][662]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.11.03-00.49.10:527][662]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.11.03-00.49.10:539][662]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.11.03-00.49.10:539][662]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.11.03-00.49.10:539][662]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.11.03-00.49.10:539][662]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.11.03-00.49.10:565][662]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.11.03-00.49.10:566][662]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.11.03-00.49.10:566][662]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.11.03-00.49.10:566][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.11.03-00.49.10:566][662]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.11.03-00.49.10:566][662]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.11.03-00.49.10:568][662]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.11.03-00.49.10:581][662]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.11.03-00.49.10:581][662]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.11.03-00.49.10:581][662]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.11.03-00.49.10:601][662]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.11.03-00.49.10:601][662]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.11.03-00.49.10:601][662]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.11.03-00.49.10:601][662]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.11.03-00.49.10:644][662]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.11.03-00.49.10:644][662]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.11.03-00.49.10:660][662]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.11.03-00.49.10:660][662]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.11.03-00.49.10:687][662]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.11.03-00.49.10:687][662]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.11.03-00.49.10:687][662]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.03-00.49.10:688][662]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.11.03-00.49.10:712][662]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.03-00.49.10:748][662]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.11.03-00.49.10:748][662]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.11.03-00.49.10:781][662]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.11.03-00.49.10:781][662]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.11.03-00.49.10:781][662]LogDerivedDataCache: Shutdown
+[2019.11.03-00.49.10:782][662]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.11.03-00.49.10:782][662]LogXGEController: Cleaning working directory: C:/Users/CORVO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.03-00.49.10:782][662]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.11.03-00.49.10:782][662]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.11.03-00.49.10:806][662]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.11.03-00.49.10:806][662]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.11.03-00.49.10:819][662]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.11.03-00.49.10:819][662]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.11.03-00.49.10:830][662]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.11.03-00.49.10:830][662]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.11.03-00.49.10:830][662]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.11.03-00.49.10:830][662]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.11.03-00.49.10:831][662]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.11.03-00.49.10:832][662]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.11.03-00.49.10:832][662]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.11.03-00.49.10:832][662]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.11.03-00.49.10:833][662]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.11.03-00.49.10:833][662]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.11.03-00.49.10:833][662]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.11.03-00.49.10:833][662]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.11.03-00.49.10:839][662]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.11.03-00.49.10:840][662]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.11.03-00.49.10:840][662]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.11.03-00.49.10:841][662]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.11.03-00.49.10:853][662]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.11.03-00.49.10:871][662]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.11.03-00.49.10:871][662]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.11.03-00.49.10:872][662]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF1B4FEFB-40D1-1446-41AB-29B9FADDA405%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=6772d1154ea799ff7f1df09af2d1cc5b%7C092ebd36d4e8443cba4e3017568acc12%7Cfa24fd9d-7985-402b-947a-03daec9fc09a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.03-00.49.10:872][662]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF1B4FEFB-40D1-1446-41AB-29B9FADDA405%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=6772d1154ea799ff7f1df09af2d1cc5b%7C092ebd36d4e8443cba4e3017568acc12%7Cfa24fd9d-7985-402b-947a-03daec9fc09a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.03-00.49.10:874][662]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.11.03-00.49.10:875][662]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.11.03-00.49.10:890][662]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.11.03-00.49.10:891][662]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.03-00.49.10:902][662]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.03-00.49.10:902][662]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.03-00.49.10:915][662]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.03-00.49.10:915][662]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.03-00.49.10:915][662]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.03-00.49.10:915][662]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.03-00.49.10:916][662]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.03-00.49.10:923][662]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.03-00.49.10:924][662]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.03-00.49.10:924][662]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.03-00.49.10:924][662]LogD3D11RHI: Shutdown
+[2019.11.03-00.49.10:924][662]LogD3D11RHI: CleanupD3DDevice
+[2019.11.03-00.49.10:933][662]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.03-00.49.10:933][662]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.03-00.49.10:933][662]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.03-00.49.11:018][662]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.03-00.49.11:027][662]LogExit: Exiting.
+[2019.11.03-00.49.11:036][662]Log file closed, 11/02/19 20:49:11
